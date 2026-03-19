@@ -1,3 +1,4 @@
+# 提醒：GLM 不可用，当前结果已回退为纯规则生成
 mixed-port: 7897
 allow-lan: false
 mode: rule
