@@ -1,24 +1,22 @@
 {
-  "generated_at": "2026-03-19T14:30:24Z",
+  "generated_at": "2026-03-19T14:38:37Z",
   "source_mode": "http",
   "parse_mode": "base64-uri",
   "proxy_count": 26,
   "llm_enabled": true,
-  "llm_used": false,
+  "llm_used": true,
   "region_counts": {
     "hk": 1,
     "us": 4,
     "kr": 2,
     "jp": 2,
-    "other": 10,
+    "other": 12,
     "in": 1,
     "sg": 1,
-    "unknown": 2,
     "tw": 2,
     "ru": 1
   },
   "notes": [
-    "GLM 不可用：分组调用失败（HTTPSConnectionPool(host='open.bigmodel.cn', port=443): Read timed out. (read timeout=60)）",
     "已跳过当前不支持的 URI 协议或占位节点: anytls:29, ss:3"
   ]
 }
