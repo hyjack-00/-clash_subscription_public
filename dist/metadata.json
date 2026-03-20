@@ -1,24 +1,22 @@
 {
-  "generated_at": "2026-03-20T06:42:53Z",
+  "generated_at": "2026-03-20T12:37:43Z",
   "source_mode": "http",
   "parse_mode": "base64-uri",
   "proxy_count": 26,
   "llm_enabled": true,
-  "llm_used": false,
+  "llm_used": true,
   "region_counts": {
     "hk": 1,
     "us": 4,
     "kr": 2,
     "jp": 2,
-    "other": 10,
+    "other": 12,
     "in": 1,
     "sg": 1,
-    "unknown": 2,
     "tw": 2,
     "ru": 1
   },
   "notes": [
-    "GLM 不可用：健康检查失败（429 Client Error: Too Many Requests for url: https://open.bigmodel.cn/api/paas/v4/chat/completions）",
     "已跳过当前不支持的 URI 协议或占位节点: anytls:29, ss:3"
   ]
 }
