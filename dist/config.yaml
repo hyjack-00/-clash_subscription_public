@@ -87,7 +87,6 @@ proxies:
   password: 89b51cea-4379-4882-a8d8-878b5b4770e1
   skip-cert-verify: true
   obfs: salamander
-  obfs-password: eU69wJzBUh7xjd4qGWX
 - name: 🇺🇸5美国波特兰-全网优化(hy2)
   type: hysteria2
   server: 5us.networklinkpro.net
@@ -95,7 +94,6 @@ proxies:
   password: 89b51cea-4379-4882-a8d8-878b5b4770e1
   skip-cert-verify: true
   obfs: salamander
-  obfs-password: LKmnsKAWHJujYvXFzE8
 - name: 🇺🇸6美国洛杉矶集群-全网优化(hy2)
   type: hysteria2
   server: 6us.networklinkpro.net
@@ -103,7 +101,6 @@ proxies:
   password: 89b51cea-4379-4882-a8d8-878b5b4770e1
   skip-cert-verify: true
   obfs: salamander
-  obfs-password: BQwQ3aEZ2qnVG98hUmD
 - name: 🇰🇷7韩国春川集群-联通/移动(hy2)
   type: hysteria2
   server: 7kr.networklinkpro.net
@@ -111,7 +108,6 @@ proxies:
   password: 89b51cea-4379-4882-a8d8-878b5b4770e1
   skip-cert-verify: true
   obfs: salamander
-  obfs-password: oHbvQ7axaUdvRG3LULJ
 - name: 🇰🇷8韩国首尔-全网优化(hy2)
   type: hysteria2
   server: 8kr.networklinkpro.net
@@ -119,7 +115,6 @@ proxies:
   password: 89b51cea-4379-4882-a8d8-878b5b4770e1
   skip-cert-verify: true
   obfs: salamander
-  obfs-password: R6MX6sv9thYvXpD2nkj
 - name: 🇯🇵9日本大版集群-电信/移动(hy2)
   type: hysteria2
   server: 9jp.networklinkpro.net
@@ -127,7 +122,6 @@ proxies:
   password: 89b51cea-4379-4882-a8d8-878b5b4770e1
   skip-cert-verify: true
   obfs: salamander
-  obfs-password: 7rFvpyAZFscfEDnV6GP
 - name: 🇩🇪11德国-全网优化(hy2)
   type: hysteria2
   server: 11de.networklinkpro.net
@@ -135,7 +129,6 @@ proxies:
   password: 89b51cea-4379-4882-a8d8-878b5b4770e1
   skip-cert-verify: true
   obfs: salamander
-  obfs-password: 9ypYuggjMazJRvdqMbr
 - name: 🇬🇧12英国-全网优化(hy2)
   type: hysteria2
   server: 12uk.networklinkpro.net
@@ -143,7 +136,6 @@ proxies:
   password: 89b51cea-4379-4882-a8d8-878b5b4770e1
   skip-cert-verify: true
   obfs: salamander
-  obfs-password: 46sMEnNhhPjWVdoXvuh
 - name: 🇮🇳13印度孟买-电信/联通(hy2)
   type: hysteria2
   server: 13in.networklinkpro.net
@@ -151,7 +143,6 @@ proxies:
   password: 89b51cea-4379-4882-a8d8-878b5b4770e1
   skip-cert-verify: true
   obfs: salamander
-  obfs-password: hNEirC6f96pepfzjzfj
 - name: 🇸🇬15新加坡集群-全网优化(hy2)
   type: hysteria2
   server: 15sg.networklinkpro.net
@@ -159,7 +150,6 @@ proxies:
   password: 89b51cea-4379-4882-a8d8-878b5b4770e1
   skip-cert-verify: true
   obfs: salamander
-  obfs-password: BYAAfHAf66UAKPMUZWk
 - name: 🇺🇸16美国旧金山-联通优化(hy2)
   type: hysteria2
   server: 16us.networklinkpro.net
@@ -167,7 +157,6 @@ proxies:
   password: 89b51cea-4379-4882-a8d8-878b5b4770e1
   skip-cert-verify: true
   obfs: salamander
-  obfs-password: 3NVPvRFntFVRadKZgkY
 - name: 🇯🇵19日本东京-联通/移动(hy2)
   type: hysteria2
   server: 19jp.networklinkpro.net
@@ -175,7 +164,6 @@ proxies:
   password: 89b51cea-4379-4882-a8d8-878b5b4770e1
   skip-cert-verify: true
   obfs: salamander
-  obfs-password: 7mqWC2UuoJp8owKFCyU
 - name: 🇧🇷22巴西-联通/移动(hy2)
   type: hysteria2
   server: 22br.networklinkpro.net
@@ -183,7 +171,6 @@ proxies:
   password: 89b51cea-4379-4882-a8d8-878b5b4770e1
   skip-cert-verify: true
   obfs: salamander
-  obfs-password: uM2MevHEcNHdPXN4rhf
 - name: 🇳🇱26荷兰-全网优化(hy2)
   type: hysteria2
   server: 26nl.networklinkpro.net
@@ -191,7 +178,6 @@ proxies:
   password: 89b51cea-4379-4882-a8d8-878b5b4770e1
   skip-cert-verify: true
   obfs: salamander
-  obfs-password: DTXnbiPwG2V4GhnsqAT
 - name: 🇫🇷27法国-全网优化(hy2)
   type: hysteria2
   server: 27fr.networklinkpro.net
@@ -199,7 +185,6 @@ proxies:
   password: 89b51cea-4379-4882-a8d8-878b5b4770e1
   skip-cert-verify: true
   obfs: salamander
-  obfs-password: aij8TkcMnh6tUXQoVmi
 - name: 🇺🇸28美国东部-全网优化(hy2)
   type: hysteria2
   server: 28us.networklinkpro.net
@@ -207,7 +192,6 @@ proxies:
   password: 89b51cea-4379-4882-a8d8-878b5b4770e1
   skip-cert-verify: true
   obfs: salamander
-  obfs-password: ispdk8fvxFmRt6iBqRZ
 - name: 🇨🇱29智利-全网优化(hy2)
   type: hysteria2
   server: 29chi.networklinkpro.net
@@ -215,7 +199,6 @@ proxies:
   password: 89b51cea-4379-4882-a8d8-878b5b4770e1
   skip-cert-verify: true
   obfs: salamander
-  obfs-password: wvdoA7KqKE38WMcd6HP
 - name: 🇮🇹30意大利-全网优化(hy2)
   type: hysteria2
   server: 30it.networklinkpro.net
@@ -223,7 +206,6 @@ proxies:
   password: 89b51cea-4379-4882-a8d8-878b5b4770e1
   skip-cert-verify: true
   obfs: salamander
-  obfs-password: 8tMGhfAV47ajoWfuf4m
 - name: 🇸🇪31瑞典-电信/移动(hy2)
   type: hysteria2
   server: 31se.networklinkpro.net
@@ -231,7 +213,6 @@ proxies:
   password: 89b51cea-4379-4882-a8d8-878b5b4770e1
   skip-cert-verify: true
   obfs: salamander
-  obfs-password: xUtDmJPRQDT8jBajW7q
 - name: 🇿🇦32南非-约翰内斯堡(hy2)
   type: hysteria2
   server: 32za.networklinkpro.net
@@ -239,7 +220,6 @@ proxies:
   password: 89b51cea-4379-4882-a8d8-878b5b4770e1
   skip-cert-verify: true
   obfs: salamander
-  obfs-password: 8z6zd4Qqmvxh4uYZNsn
 - name: 🇨🇦33加拿大-全网优化(hy2)
   type: hysteria2
   server: 33ca.networklinkpro.net
@@ -247,7 +227,6 @@ proxies:
   password: 89b51cea-4379-4882-a8d8-878b5b4770e1
   skip-cert-verify: true
   obfs: salamander
-  obfs-password: BN49mWMyxif4fLzeBhh
 - name: 🇨🇭34瑞士-全网优化(hy2)
   type: hysteria2
   server: 34ch.networklinkpro.net
@@ -255,7 +234,6 @@ proxies:
   password: 89b51cea-4379-4882-a8d8-878b5b4770e1
   skip-cert-verify: true
   obfs: salamander
-  obfs-password: HWDeX4wzkjUajFAu7Fb
 - name: 🇪🇸36西班牙-电信/联通(hy2)
   type: hysteria2
   server: 36es.networklinkpro.net
@@ -263,7 +241,6 @@ proxies:
   password: 89b51cea-4379-4882-a8d8-878b5b4770e1
   skip-cert-verify: true
   obfs: salamander
-  obfs-password: Ya6C72rFt8YfFc8KHUi
 - name: 3台湾-电信/联通(Tuic)
   type: tuic
   server: 3tw.networklinkpro.net
@@ -301,7 +278,7 @@ proxy-groups:
 - name: BV用户后台!
   type: select
   proxies:
-  - 🕒最近更新 03-21 02:35 HKT
+  - 🕒最近更新 03-21 09:11 HKT
   - BV通用组
   - ♻️全球自动
   - 🔯故障转移
@@ -341,7 +318,7 @@ proxy-groups:
   - 3台湾-电信/联通(Tuic)
   - 4台湾-电信/联通(Tuic)
   - 🇷🇺17俄罗斯-电信/联通(Tuic)
-- name: 🕒最近更新 03-21 02:35 HKT
+- name: 🕒最近更新 03-21 09:11 HKT
   type: select
   proxies:
   - DIRECT
