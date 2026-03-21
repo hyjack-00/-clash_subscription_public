@@ -80,167 +80,6 @@ dns:
     - +.googleapis.com
     - +.gvt1.com
 proxies:
-- name: 🇭🇰2香港-全网优化(hy2)
-  type: hysteria2
-  server: 2hk.networklinkpro.net
-  port: 4433
-  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
-  skip-cert-verify: true
-  obfs: salamander
-- name: 🇺🇸5美国波特兰-全网优化(hy2)
-  type: hysteria2
-  server: 5us.networklinkpro.net
-  port: 4433
-  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
-  skip-cert-verify: true
-  obfs: salamander
-- name: 🇺🇸6美国洛杉矶集群-全网优化(hy2)
-  type: hysteria2
-  server: 6us.networklinkpro.net
-  port: 4433
-  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
-  skip-cert-verify: true
-  obfs: salamander
-- name: 🇰🇷7韩国春川集群-联通/移动(hy2)
-  type: hysteria2
-  server: 7kr.networklinkpro.net
-  port: 4433
-  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
-  skip-cert-verify: true
-  obfs: salamander
-- name: 🇰🇷8韩国首尔-全网优化(hy2)
-  type: hysteria2
-  server: 8kr.networklinkpro.net
-  port: 4433
-  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
-  skip-cert-verify: true
-  obfs: salamander
-- name: 🇯🇵9日本大版集群-电信/移动(hy2)
-  type: hysteria2
-  server: 9jp.networklinkpro.net
-  port: 4433
-  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
-  skip-cert-verify: true
-  obfs: salamander
-- name: 🇩🇪11德国-全网优化(hy2)
-  type: hysteria2
-  server: 11de.networklinkpro.net
-  port: 4433
-  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
-  skip-cert-verify: true
-  obfs: salamander
-- name: 🇬🇧12英国-全网优化(hy2)
-  type: hysteria2
-  server: 12uk.networklinkpro.net
-  port: 4433
-  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
-  skip-cert-verify: true
-  obfs: salamander
-- name: 🇮🇳13印度孟买-电信/联通(hy2)
-  type: hysteria2
-  server: 13in.networklinkpro.net
-  port: 4433
-  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
-  skip-cert-verify: true
-  obfs: salamander
-- name: 🇸🇬15新加坡集群-全网优化(hy2)
-  type: hysteria2
-  server: 15sg.networklinkpro.net
-  port: 4433
-  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
-  skip-cert-verify: true
-  obfs: salamander
-- name: 🇺🇸16美国旧金山-联通优化(hy2)
-  type: hysteria2
-  server: 16us.networklinkpro.net
-  port: 4433
-  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
-  skip-cert-verify: true
-  obfs: salamander
-- name: 🇯🇵19日本东京-联通/移动(hy2)
-  type: hysteria2
-  server: 19jp.networklinkpro.net
-  port: 4433
-  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
-  skip-cert-verify: true
-  obfs: salamander
-- name: 🇧🇷22巴西-联通/移动(hy2)
-  type: hysteria2
-  server: 22br.networklinkpro.net
-  port: 4433
-  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
-  skip-cert-verify: true
-  obfs: salamander
-- name: 🇳🇱26荷兰-全网优化(hy2)
-  type: hysteria2
-  server: 26nl.networklinkpro.net
-  port: 4433
-  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
-  skip-cert-verify: true
-  obfs: salamander
-- name: 🇫🇷27法国-全网优化(hy2)
-  type: hysteria2
-  server: 27fr.networklinkpro.net
-  port: 4433
-  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
-  skip-cert-verify: true
-  obfs: salamander
-- name: 🇺🇸28美国东部-全网优化(hy2)
-  type: hysteria2
-  server: 28us.networklinkpro.net
-  port: 4433
-  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
-  skip-cert-verify: true
-  obfs: salamander
-- name: 🇨🇱29智利-全网优化(hy2)
-  type: hysteria2
-  server: 29chi.networklinkpro.net
-  port: 4433
-  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
-  skip-cert-verify: true
-  obfs: salamander
-- name: 🇮🇹30意大利-全网优化(hy2)
-  type: hysteria2
-  server: 30it.networklinkpro.net
-  port: 4433
-  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
-  skip-cert-verify: true
-  obfs: salamander
-- name: 🇸🇪31瑞典-电信/移动(hy2)
-  type: hysteria2
-  server: 31se.networklinkpro.net
-  port: 4433
-  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
-  skip-cert-verify: true
-  obfs: salamander
-- name: 🇿🇦32南非-约翰内斯堡(hy2)
-  type: hysteria2
-  server: 32za.networklinkpro.net
-  port: 4433
-  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
-  skip-cert-verify: true
-  obfs: salamander
-- name: 🇨🇦33加拿大-全网优化(hy2)
-  type: hysteria2
-  server: 33ca.networklinkpro.net
-  port: 4433
-  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
-  skip-cert-verify: true
-  obfs: salamander
-- name: 🇨🇭34瑞士-全网优化(hy2)
-  type: hysteria2
-  server: 34ch.networklinkpro.net
-  port: 4433
-  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
-  skip-cert-verify: true
-  obfs: salamander
-- name: 🇪🇸36西班牙-电信/联通(hy2)
-  type: hysteria2
-  server: 36es.networklinkpro.net
-  port: 4433
-  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
-  skip-cert-verify: true
-  obfs: salamander
 - name: 3台湾-电信/联通(Tuic)
   type: tuic
   server: 3tw.networklinkpro.net
@@ -278,7 +117,7 @@ proxy-groups:
 - name: BV用户后台!
   type: select
   proxies:
-  - 🕒最近更新 03-21 09:11 HKT
+  - 🕒最近更新 03-21 14:32 HKT
   - BV通用组
   - ♻️全球自动
   - 🔯故障转移
@@ -292,62 +131,16 @@ proxy-groups:
   - 🤖ChatGPT
   - 🤖xAI
   - DIRECT
-  - 🇭🇰2香港-全网优化(hy2)
-  - 🇺🇸5美国波特兰-全网优化(hy2)
-  - 🇺🇸6美国洛杉矶集群-全网优化(hy2)
-  - 🇰🇷7韩国春川集群-联通/移动(hy2)
-  - 🇰🇷8韩国首尔-全网优化(hy2)
-  - 🇯🇵9日本大版集群-电信/移动(hy2)
-  - 🇩🇪11德国-全网优化(hy2)
-  - 🇬🇧12英国-全网优化(hy2)
-  - 🇮🇳13印度孟买-电信/联通(hy2)
-  - 🇸🇬15新加坡集群-全网优化(hy2)
-  - 🇺🇸16美国旧金山-联通优化(hy2)
-  - 🇯🇵19日本东京-联通/移动(hy2)
-  - 🇧🇷22巴西-联通/移动(hy2)
-  - 🇳🇱26荷兰-全网优化(hy2)
-  - 🇫🇷27法国-全网优化(hy2)
-  - 🇺🇸28美国东部-全网优化(hy2)
-  - 🇨🇱29智利-全网优化(hy2)
-  - 🇮🇹30意大利-全网优化(hy2)
-  - 🇸🇪31瑞典-电信/移动(hy2)
-  - 🇿🇦32南非-约翰内斯堡(hy2)
-  - 🇨🇦33加拿大-全网优化(hy2)
-  - 🇨🇭34瑞士-全网优化(hy2)
-  - 🇪🇸36西班牙-电信/联通(hy2)
   - 3台湾-电信/联通(Tuic)
   - 4台湾-电信/联通(Tuic)
   - 🇷🇺17俄罗斯-电信/联通(Tuic)
-- name: 🕒最近更新 03-21 09:11 HKT
+- name: 🕒最近更新 03-21 14:32 HKT
   type: select
   proxies:
   - DIRECT
 - name: BV通用组
   type: url-test
   proxies:
-  - 🇭🇰2香港-全网优化(hy2)
-  - 🇺🇸5美国波特兰-全网优化(hy2)
-  - 🇺🇸6美国洛杉矶集群-全网优化(hy2)
-  - 🇰🇷7韩国春川集群-联通/移动(hy2)
-  - 🇰🇷8韩国首尔-全网优化(hy2)
-  - 🇯🇵9日本大版集群-电信/移动(hy2)
-  - 🇩🇪11德国-全网优化(hy2)
-  - 🇬🇧12英国-全网优化(hy2)
-  - 🇮🇳13印度孟买-电信/联通(hy2)
-  - 🇸🇬15新加坡集群-全网优化(hy2)
-  - 🇺🇸16美国旧金山-联通优化(hy2)
-  - 🇯🇵19日本东京-联通/移动(hy2)
-  - 🇧🇷22巴西-联通/移动(hy2)
-  - 🇳🇱26荷兰-全网优化(hy2)
-  - 🇫🇷27法国-全网优化(hy2)
-  - 🇺🇸28美国东部-全网优化(hy2)
-  - 🇨🇱29智利-全网优化(hy2)
-  - 🇮🇹30意大利-全网优化(hy2)
-  - 🇸🇪31瑞典-电信/移动(hy2)
-  - 🇿🇦32南非-约翰内斯堡(hy2)
-  - 🇨🇦33加拿大-全网优化(hy2)
-  - 🇨🇭34瑞士-全网优化(hy2)
-  - 🇪🇸36西班牙-电信/联通(hy2)
   - 3台湾-电信/联通(Tuic)
   - 4台湾-电信/联通(Tuic)
   - 🇷🇺17俄罗斯-电信/联通(Tuic)
@@ -356,29 +149,6 @@ proxy-groups:
 - name: ♻️全球自动
   type: url-test
   proxies:
-  - 🇭🇰2香港-全网优化(hy2)
-  - 🇺🇸5美国波特兰-全网优化(hy2)
-  - 🇺🇸6美国洛杉矶集群-全网优化(hy2)
-  - 🇰🇷7韩国春川集群-联通/移动(hy2)
-  - 🇰🇷8韩国首尔-全网优化(hy2)
-  - 🇯🇵9日本大版集群-电信/移动(hy2)
-  - 🇩🇪11德国-全网优化(hy2)
-  - 🇬🇧12英国-全网优化(hy2)
-  - 🇮🇳13印度孟买-电信/联通(hy2)
-  - 🇸🇬15新加坡集群-全网优化(hy2)
-  - 🇺🇸16美国旧金山-联通优化(hy2)
-  - 🇯🇵19日本东京-联通/移动(hy2)
-  - 🇧🇷22巴西-联通/移动(hy2)
-  - 🇳🇱26荷兰-全网优化(hy2)
-  - 🇫🇷27法国-全网优化(hy2)
-  - 🇺🇸28美国东部-全网优化(hy2)
-  - 🇨🇱29智利-全网优化(hy2)
-  - 🇮🇹30意大利-全网优化(hy2)
-  - 🇸🇪31瑞典-电信/移动(hy2)
-  - 🇿🇦32南非-约翰内斯堡(hy2)
-  - 🇨🇦33加拿大-全网优化(hy2)
-  - 🇨🇭34瑞士-全网优化(hy2)
-  - 🇪🇸36西班牙-电信/联通(hy2)
   - 3台湾-电信/联通(Tuic)
   - 4台湾-电信/联通(Tuic)
   - 🇷🇺17俄罗斯-电信/联通(Tuic)
@@ -387,29 +157,6 @@ proxy-groups:
 - name: 🔯故障转移
   type: fallback
   proxies:
-  - 🇭🇰2香港-全网优化(hy2)
-  - 🇺🇸5美国波特兰-全网优化(hy2)
-  - 🇺🇸6美国洛杉矶集群-全网优化(hy2)
-  - 🇰🇷7韩国春川集群-联通/移动(hy2)
-  - 🇰🇷8韩国首尔-全网优化(hy2)
-  - 🇯🇵9日本大版集群-电信/移动(hy2)
-  - 🇩🇪11德国-全网优化(hy2)
-  - 🇬🇧12英国-全网优化(hy2)
-  - 🇮🇳13印度孟买-电信/联通(hy2)
-  - 🇸🇬15新加坡集群-全网优化(hy2)
-  - 🇺🇸16美国旧金山-联通优化(hy2)
-  - 🇯🇵19日本东京-联通/移动(hy2)
-  - 🇧🇷22巴西-联通/移动(hy2)
-  - 🇳🇱26荷兰-全网优化(hy2)
-  - 🇫🇷27法国-全网优化(hy2)
-  - 🇺🇸28美国东部-全网优化(hy2)
-  - 🇨🇱29智利-全网优化(hy2)
-  - 🇮🇹30意大利-全网优化(hy2)
-  - 🇸🇪31瑞典-电信/移动(hy2)
-  - 🇿🇦32南非-约翰内斯堡(hy2)
-  - 🇨🇦33加拿大-全网优化(hy2)
-  - 🇨🇭34瑞士-全网优化(hy2)
-  - 🇪🇸36西班牙-电信/联通(hy2)
   - 3台湾-电信/联通(Tuic)
   - 4台湾-电信/联通(Tuic)
   - 🇷🇺17俄罗斯-电信/联通(Tuic)
@@ -418,178 +165,65 @@ proxy-groups:
 - name: 🌏亚洲
   type: select
   proxies:
-  - 🇰🇷7韩国春川集群-联通/移动(hy2)
-  - 🇰🇷8韩国首尔-全网优化(hy2)
-  - 🇯🇵9日本大版集群-电信/移动(hy2)
-  - 🇮🇳13印度孟买-电信/联通(hy2)
-  - 🇸🇬15新加坡集群-全网优化(hy2)
-  - 🇯🇵19日本东京-联通/移动(hy2)
+  - 3台湾-电信/联通(Tuic)
+  - 4台湾-电信/联通(Tuic)
+  - 🇷🇺17俄罗斯-电信/联通(Tuic)
 - name: 🇺🇸美国
   type: url-test
   proxies:
-  - 🇺🇸5美国波特兰-全网优化(hy2)
-  - 🇺🇸6美国洛杉矶集群-全网优化(hy2)
-  - 🇺🇸16美国旧金山-联通优化(hy2)
-  - 🇺🇸28美国东部-全网优化(hy2)
+  - 3台湾-电信/联通(Tuic)
+  - 4台湾-电信/联通(Tuic)
+  - 🇷🇺17俄罗斯-电信/联通(Tuic)
   url: http://1.1.1.1
   interval: 300
 - name: 🇭🇰香港
   type: url-test
   proxies:
-  - 🇭🇰2香港-全网优化(hy2)
+  - 3台湾-电信/联通(Tuic)
+  - 4台湾-电信/联通(Tuic)
+  - 🇷🇺17俄罗斯-电信/联通(Tuic)
   url: http://1.1.1.1
   interval: 300
 - name: 🌐其他
   type: select
   proxies:
-  - 🇩🇪11德国-全网优化(hy2)
-  - 🇬🇧12英国-全网优化(hy2)
-  - 🇧🇷22巴西-联通/移动(hy2)
-  - 🇳🇱26荷兰-全网优化(hy2)
-  - 🇫🇷27法国-全网优化(hy2)
-  - 🇨🇱29智利-全网优化(hy2)
-  - 🇮🇹30意大利-全网优化(hy2)
-  - 🇸🇪31瑞典-电信/移动(hy2)
-  - 🇿🇦32南非-约翰内斯堡(hy2)
-  - 🇨🇦33加拿大-全网优化(hy2)
-  - 🇨🇭34瑞士-全网优化(hy2)
-  - 🇪🇸36西班牙-电信/联通(hy2)
   - 🇷🇺17俄罗斯-电信/联通(Tuic)
 - name: 🌍全部
   type: select
   proxies:
-  - 🇭🇰2香港-全网优化(hy2)
-  - 🇺🇸5美国波特兰-全网优化(hy2)
-  - 🇺🇸6美国洛杉矶集群-全网优化(hy2)
-  - 🇰🇷7韩国春川集群-联通/移动(hy2)
-  - 🇰🇷8韩国首尔-全网优化(hy2)
-  - 🇯🇵9日本大版集群-电信/移动(hy2)
-  - 🇩🇪11德国-全网优化(hy2)
-  - 🇬🇧12英国-全网优化(hy2)
-  - 🇮🇳13印度孟买-电信/联通(hy2)
-  - 🇸🇬15新加坡集群-全网优化(hy2)
-  - 🇺🇸16美国旧金山-联通优化(hy2)
-  - 🇯🇵19日本东京-联通/移动(hy2)
-  - 🇧🇷22巴西-联通/移动(hy2)
-  - 🇳🇱26荷兰-全网优化(hy2)
-  - 🇫🇷27法国-全网优化(hy2)
-  - 🇺🇸28美国东部-全网优化(hy2)
-  - 🇨🇱29智利-全网优化(hy2)
-  - 🇮🇹30意大利-全网优化(hy2)
-  - 🇸🇪31瑞典-电信/移动(hy2)
-  - 🇿🇦32南非-约翰内斯堡(hy2)
-  - 🇨🇦33加拿大-全网优化(hy2)
-  - 🇨🇭34瑞士-全网优化(hy2)
-  - 🇪🇸36西班牙-电信/联通(hy2)
   - 3台湾-电信/联通(Tuic)
   - 4台湾-电信/联通(Tuic)
   - 🇷🇺17俄罗斯-电信/联通(Tuic)
 - name: 🤖Claude
   type: url-test
   proxies:
-  - 🇺🇸5美国波特兰-全网优化(hy2)
-  - 🇺🇸6美国洛杉矶集群-全网优化(hy2)
-  - 🇰🇷7韩国春川集群-联通/移动(hy2)
-  - 🇰🇷8韩国首尔-全网优化(hy2)
-  - 🇯🇵9日本大版集群-电信/移动(hy2)
-  - 🇩🇪11德国-全网优化(hy2)
-  - 🇬🇧12英国-全网优化(hy2)
-  - 🇮🇳13印度孟买-电信/联通(hy2)
-  - 🇸🇬15新加坡集群-全网优化(hy2)
-  - 🇺🇸16美国旧金山-联通优化(hy2)
-  - 🇯🇵19日本东京-联通/移动(hy2)
-  - 🇧🇷22巴西-联通/移动(hy2)
-  - 🇳🇱26荷兰-全网优化(hy2)
-  - 🇫🇷27法国-全网优化(hy2)
-  - 🇺🇸28美国东部-全网优化(hy2)
-  - 🇨🇱29智利-全网优化(hy2)
-  - 🇮🇹30意大利-全网优化(hy2)
-  - 🇸🇪31瑞典-电信/移动(hy2)
-  - 🇿🇦32南非-约翰内斯堡(hy2)
-  - 🇨🇦33加拿大-全网优化(hy2)
-  - 🇨🇭34瑞士-全网优化(hy2)
-  - 🇪🇸36西班牙-电信/联通(hy2)
+  - 3台湾-电信/联通(Tuic)
+  - 4台湾-电信/联通(Tuic)
+  - 🇷🇺17俄罗斯-电信/联通(Tuic)
   url: http://1.1.1.1
   interval: 300
 - name: 🤖Gemini
   type: url-test
   proxies:
-  - 🇺🇸5美国波特兰-全网优化(hy2)
-  - 🇺🇸6美国洛杉矶集群-全网优化(hy2)
-  - 🇰🇷7韩国春川集群-联通/移动(hy2)
-  - 🇰🇷8韩国首尔-全网优化(hy2)
-  - 🇯🇵9日本大版集群-电信/移动(hy2)
-  - 🇩🇪11德国-全网优化(hy2)
-  - 🇬🇧12英国-全网优化(hy2)
-  - 🇮🇳13印度孟买-电信/联通(hy2)
-  - 🇸🇬15新加坡集群-全网优化(hy2)
-  - 🇺🇸16美国旧金山-联通优化(hy2)
-  - 🇯🇵19日本东京-联通/移动(hy2)
-  - 🇧🇷22巴西-联通/移动(hy2)
-  - 🇳🇱26荷兰-全网优化(hy2)
-  - 🇫🇷27法国-全网优化(hy2)
-  - 🇺🇸28美国东部-全网优化(hy2)
-  - 🇨🇱29智利-全网优化(hy2)
-  - 🇮🇹30意大利-全网优化(hy2)
-  - 🇸🇪31瑞典-电信/移动(hy2)
-  - 🇿🇦32南非-约翰内斯堡(hy2)
-  - 🇨🇦33加拿大-全网优化(hy2)
-  - 🇨🇭34瑞士-全网优化(hy2)
-  - 🇪🇸36西班牙-电信/联通(hy2)
+  - 3台湾-电信/联通(Tuic)
+  - 4台湾-电信/联通(Tuic)
+  - 🇷🇺17俄罗斯-电信/联通(Tuic)
   url: http://1.1.1.1
   interval: 300
 - name: 🤖ChatGPT
   type: url-test
   proxies:
-  - 🇺🇸5美国波特兰-全网优化(hy2)
-  - 🇺🇸6美国洛杉矶集群-全网优化(hy2)
-  - 🇰🇷7韩国春川集群-联通/移动(hy2)
-  - 🇰🇷8韩国首尔-全网优化(hy2)
-  - 🇯🇵9日本大版集群-电信/移动(hy2)
-  - 🇩🇪11德国-全网优化(hy2)
-  - 🇬🇧12英国-全网优化(hy2)
-  - 🇮🇳13印度孟买-电信/联通(hy2)
-  - 🇸🇬15新加坡集群-全网优化(hy2)
-  - 🇺🇸16美国旧金山-联通优化(hy2)
-  - 🇯🇵19日本东京-联通/移动(hy2)
-  - 🇧🇷22巴西-联通/移动(hy2)
-  - 🇳🇱26荷兰-全网优化(hy2)
-  - 🇫🇷27法国-全网优化(hy2)
-  - 🇺🇸28美国东部-全网优化(hy2)
-  - 🇨🇱29智利-全网优化(hy2)
-  - 🇮🇹30意大利-全网优化(hy2)
-  - 🇸🇪31瑞典-电信/移动(hy2)
-  - 🇿🇦32南非-约翰内斯堡(hy2)
-  - 🇨🇦33加拿大-全网优化(hy2)
-  - 🇨🇭34瑞士-全网优化(hy2)
-  - 🇪🇸36西班牙-电信/联通(hy2)
+  - 3台湾-电信/联通(Tuic)
+  - 4台湾-电信/联通(Tuic)
+  - 🇷🇺17俄罗斯-电信/联通(Tuic)
   url: http://1.1.1.1
   interval: 300
 - name: 🤖xAI
   type: url-test
   proxies:
-  - 🇺🇸5美国波特兰-全网优化(hy2)
-  - 🇺🇸6美国洛杉矶集群-全网优化(hy2)
-  - 🇰🇷7韩国春川集群-联通/移动(hy2)
-  - 🇰🇷8韩国首尔-全网优化(hy2)
-  - 🇯🇵9日本大版集群-电信/移动(hy2)
-  - 🇩🇪11德国-全网优化(hy2)
-  - 🇬🇧12英国-全网优化(hy2)
-  - 🇮🇳13印度孟买-电信/联通(hy2)
-  - 🇸🇬15新加坡集群-全网优化(hy2)
-  - 🇺🇸16美国旧金山-联通优化(hy2)
-  - 🇯🇵19日本东京-联通/移动(hy2)
-  - 🇧🇷22巴西-联通/移动(hy2)
-  - 🇳🇱26荷兰-全网优化(hy2)
-  - 🇫🇷27法国-全网优化(hy2)
-  - 🇺🇸28美国东部-全网优化(hy2)
-  - 🇨🇱29智利-全网优化(hy2)
-  - 🇮🇹30意大利-全网优化(hy2)
-  - 🇸🇪31瑞典-电信/移动(hy2)
-  - 🇿🇦32南非-约翰内斯堡(hy2)
-  - 🇨🇦33加拿大-全网优化(hy2)
-  - 🇨🇭34瑞士-全网优化(hy2)
-  - 🇪🇸36西班牙-电信/联通(hy2)
+  - 3台湾-电信/联通(Tuic)
+  - 4台湾-电信/联通(Tuic)
+  - 🇷🇺17俄罗斯-电信/联通(Tuic)
   url: http://1.1.1.1
   interval: 300
 rules:
