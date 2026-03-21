@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Upstream Client Issues
+    url: https://github.com/MetaCubeX/ClashMetaForAndroid/issues
+    about: For client-side Clash.Meta Android issues, please use the upstream tracker.
+  - name: Public Artifact Channel
+    url: https://raw.githubusercontent.com/hyjack-00/-clash_subscription_public/main/dist/metadata.json
+    about: Check metadata.json first when validating the current published artifact.
