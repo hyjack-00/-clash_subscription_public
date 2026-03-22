@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-22T01:20:50Z",
+  "generated_at": "2026-03-22T06:39:47Z",
   "source_mode": "http",
   "parse_mode": "base64-uri",
   "proxy_count": 3,
   "llm_enabled": true,
-  "llm_used": true,
+  "llm_used": false,
   "region_counts": {
     "tw": 2,
     "ru": 1
@@ -12,6 +12,7 @@
   "notes": [
     "当前无专属 HK 节点，香港组已回退到亚洲或全部节点",
     "AI 组未发现可用非受限地区节点，已回退到全部节点",
-    "已跳过无效、占位或暂不支持的 URI 节点: anytls:24, ss-placeholder:3"
+    "GLM 不可用：分组调用失败（HTTPSConnectionPool(host='open.bigmodel.cn', port=443): Read timed out. (read timeout=60)）",
+    "已跳过无效、占位或暂不支持的 URI 节点: anytls:19, ss-placeholder:3"
   ]
 }
