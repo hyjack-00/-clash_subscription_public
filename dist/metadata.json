@@ -1,17 +1,19 @@
 {
-  "generated_at": "2026-03-26T01:25:11Z",
+  "generated_at": "2026-03-26T06:58:27Z",
   "source_mode": "http",
   "parse_mode": "base64-uri",
-  "proxy_count": 3,
+  "proxy_count": 14,
   "llm_enabled": true,
   "llm_used": true,
   "region_counts": {
     "tw": 2,
-    "ru": 1
+    "other": 8,
+    "in": 1,
+    "ru": 1,
+    "unknown": 2
   },
   "notes": [
     "当前无专属 HK 节点，香港组已回退到亚洲或全部节点",
-    "AI 组未发现可用非受限地区节点，已回退到全部节点",
-    "已跳过无效、占位或暂不支持的 URI 节点: anytls:19, ss-placeholder:3"
+    "已跳过无效、占位或暂不支持的 URI 节点: anytls:27, ss-placeholder:3"
   ]
 }

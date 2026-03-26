@@ -87,6 +87,7 @@ proxies:
   uuid: 89b51cea-4379-4882-a8d8-878b5b4770e1
   password: 89b51cea-4379-4882-a8d8-878b5b4770e1
   skip-cert-verify: true
+  congestion-control: bbr
   udp-relay-mode: native
   alpn:
   - h3
@@ -97,6 +98,40 @@ proxies:
   uuid: 89b51cea-4379-4882-a8d8-878b5b4770e1
   password: 89b51cea-4379-4882-a8d8-878b5b4770e1
   skip-cert-verify: true
+  congestion-control: bbr
+  udp-relay-mode: native
+  alpn:
+  - h3
+- name: 🇩🇪11德国-全网优化(Tuic)
+  type: tuic
+  server: 11de.networklinkpro.net
+  port: 4430
+  uuid: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  skip-cert-verify: true
+  congestion-control: bbr
+  udp-relay-mode: native
+  alpn:
+  - h3
+- name: 🇬🇧12英国-全网优化(Tuic)
+  type: tuic
+  server: 12uk.networklinkpro.net
+  port: 4430
+  uuid: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  skip-cert-verify: true
+  congestion-control: bbr
+  udp-relay-mode: native
+  alpn:
+  - h3
+- name: 🇮🇳13印度孟买-电信/联通(Tuic)
+  type: tuic
+  server: 13in.networklinkpro.net
+  port: 4430
+  uuid: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  skip-cert-verify: true
+  congestion-control: bbr
   udp-relay-mode: native
   alpn:
   - h3
@@ -107,6 +142,95 @@ proxies:
   uuid: 89b51cea-4379-4882-a8d8-878b5b4770e1
   password: 89b51cea-4379-4882-a8d8-878b5b4770e1
   skip-cert-verify: true
+  congestion-control: bbr
+  udp-relay-mode: native
+  alpn:
+  - h3
+- name: 🇧🇷22巴西-联通/移动(Tuic)
+  type: tuic
+  server: 22br.networklinkpro.net
+  port: 4430
+  uuid: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  skip-cert-verify: true
+  congestion-control: bbr
+  udp-relay-mode: native
+  alpn:
+  - h3
+- name: 🇳🇱26荷兰-全网优化(Tuic)
+  type: tuic
+  server: 26nl.networklinkpro.net
+  port: 4430
+  uuid: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  skip-cert-verify: true
+  congestion-control: bbr
+  udp-relay-mode: native
+  alpn:
+  - h3
+- name: 🇫🇷27法国-全网优化(Tuic)
+  type: tuic
+  server: 27fr.networklinkpro.net
+  port: 4430
+  uuid: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  skip-cert-verify: true
+  congestion-control: bbr
+  udp-relay-mode: native
+  alpn:
+  - h3
+- name: 🇨🇱29智利-全网优化(Tuic)
+  type: tuic
+  server: 29chi.networklinkpro.net
+  port: 4430
+  uuid: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  skip-cert-verify: true
+  congestion-control: bbr
+  udp-relay-mode: native
+  alpn:
+  - h3
+- name: 🇮🇹30意大利-全网优化(Tuic)
+  type: tuic
+  server: 30it.networklinkpro.net
+  port: 4430
+  uuid: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  skip-cert-verify: true
+  congestion-control: bbr
+  udp-relay-mode: native
+  alpn:
+  - h3
+- name: 🇿🇦32南非-约翰内斯堡(Tuic)
+  type: tuic
+  server: 32za.networklinkpro.net
+  port: 4430
+  uuid: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  skip-cert-verify: true
+  congestion-control: bbr
+  udp-relay-mode: native
+  alpn:
+  - h3
+- name: 🇨🇦33加拿大-全网优化(Tuic)
+  type: tuic
+  server: 33ca.networklinkpro.net
+  port: 4430
+  uuid: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  skip-cert-verify: true
+  congestion-control: bbr
+  udp-relay-mode: native
+  alpn:
+  - h3
+- name: 🇨🇭34瑞士-全网优化(Tuic)
+  type: tuic
+  server: 34ch.networklinkpro.net
+  port: 4430
+  uuid: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  skip-cert-verify: true
+  congestion-control: bbr
   udp-relay-mode: native
   alpn:
   - h3
@@ -114,7 +238,7 @@ proxy-groups:
 - name: BV用户后台!
   type: select
   proxies:
-  - 🕒最近更新 03-26 09:25 HKT
+  - 🕒最近更新 03-26 14:58 HKT
   - BV通用组
   - ♻️全球自动
   - 🔯故障转移
@@ -130,8 +254,19 @@ proxy-groups:
   - DIRECT
   - 3台湾-电信/联通(Tuic)
   - 4台湾-电信/联通(Tuic)
+  - 🇩🇪11德国-全网优化(Tuic)
+  - 🇬🇧12英国-全网优化(Tuic)
+  - 🇮🇳13印度孟买-电信/联通(Tuic)
   - 🇷🇺17俄罗斯-电信/联通(Tuic)
-- name: 🕒最近更新 03-26 09:25 HKT
+  - 🇧🇷22巴西-联通/移动(Tuic)
+  - 🇳🇱26荷兰-全网优化(Tuic)
+  - 🇫🇷27法国-全网优化(Tuic)
+  - 🇨🇱29智利-全网优化(Tuic)
+  - 🇮🇹30意大利-全网优化(Tuic)
+  - 🇿🇦32南非-约翰内斯堡(Tuic)
+  - 🇨🇦33加拿大-全网优化(Tuic)
+  - 🇨🇭34瑞士-全网优化(Tuic)
+- name: 🕒最近更新 03-26 14:58 HKT
   type: select
   proxies:
   - DIRECT
@@ -140,7 +275,18 @@ proxy-groups:
   proxies:
   - 3台湾-电信/联通(Tuic)
   - 4台湾-电信/联通(Tuic)
+  - 🇩🇪11德国-全网优化(Tuic)
+  - 🇬🇧12英国-全网优化(Tuic)
+  - 🇮🇳13印度孟买-电信/联通(Tuic)
   - 🇷🇺17俄罗斯-电信/联通(Tuic)
+  - 🇧🇷22巴西-联通/移动(Tuic)
+  - 🇳🇱26荷兰-全网优化(Tuic)
+  - 🇫🇷27法国-全网优化(Tuic)
+  - 🇨🇱29智利-全网优化(Tuic)
+  - 🇮🇹30意大利-全网优化(Tuic)
+  - 🇿🇦32南非-约翰内斯堡(Tuic)
+  - 🇨🇦33加拿大-全网优化(Tuic)
+  - 🇨🇭34瑞士-全网优化(Tuic)
   url: http://1.1.1.1
   interval: 300
 - name: ♻️全球自动
@@ -148,7 +294,18 @@ proxy-groups:
   proxies:
   - 3台湾-电信/联通(Tuic)
   - 4台湾-电信/联通(Tuic)
+  - 🇩🇪11德国-全网优化(Tuic)
+  - 🇬🇧12英国-全网优化(Tuic)
+  - 🇮🇳13印度孟买-电信/联通(Tuic)
   - 🇷🇺17俄罗斯-电信/联通(Tuic)
+  - 🇧🇷22巴西-联通/移动(Tuic)
+  - 🇳🇱26荷兰-全网优化(Tuic)
+  - 🇫🇷27法国-全网优化(Tuic)
+  - 🇨🇱29智利-全网优化(Tuic)
+  - 🇮🇹30意大利-全网优化(Tuic)
+  - 🇿🇦32南非-约翰内斯堡(Tuic)
+  - 🇨🇦33加拿大-全网优化(Tuic)
+  - 🇨🇭34瑞士-全网优化(Tuic)
   url: http://1.1.1.1
   interval: 600
 - name: 🔯故障转移
@@ -156,71 +313,142 @@ proxy-groups:
   proxies:
   - 3台湾-电信/联通(Tuic)
   - 4台湾-电信/联通(Tuic)
+  - 🇩🇪11德国-全网优化(Tuic)
+  - 🇬🇧12英国-全网优化(Tuic)
+  - 🇮🇳13印度孟买-电信/联通(Tuic)
   - 🇷🇺17俄罗斯-电信/联通(Tuic)
+  - 🇧🇷22巴西-联通/移动(Tuic)
+  - 🇳🇱26荷兰-全网优化(Tuic)
+  - 🇫🇷27法国-全网优化(Tuic)
+  - 🇨🇱29智利-全网优化(Tuic)
+  - 🇮🇹30意大利-全网优化(Tuic)
+  - 🇿🇦32南非-约翰内斯堡(Tuic)
+  - 🇨🇦33加拿大-全网优化(Tuic)
+  - 🇨🇭34瑞士-全网优化(Tuic)
   url: http://1.1.1.1
   interval: 450
 - name: 🌏亚洲
   type: select
   proxies:
-  - 3台湾-电信/联通(Tuic)
-  - 4台湾-电信/联通(Tuic)
-  - 🇷🇺17俄罗斯-电信/联通(Tuic)
+  - 🇮🇳13印度孟买-电信/联通(Tuic)
 - name: 🇺🇸美国
   type: url-test
   proxies:
   - 3台湾-电信/联通(Tuic)
   - 4台湾-电信/联通(Tuic)
+  - 🇩🇪11德国-全网优化(Tuic)
+  - 🇬🇧12英国-全网优化(Tuic)
+  - 🇮🇳13印度孟买-电信/联通(Tuic)
   - 🇷🇺17俄罗斯-电信/联通(Tuic)
+  - 🇧🇷22巴西-联通/移动(Tuic)
+  - 🇳🇱26荷兰-全网优化(Tuic)
+  - 🇫🇷27法国-全网优化(Tuic)
+  - 🇨🇱29智利-全网优化(Tuic)
+  - 🇮🇹30意大利-全网优化(Tuic)
+  - 🇿🇦32南非-约翰内斯堡(Tuic)
+  - 🇨🇦33加拿大-全网优化(Tuic)
+  - 🇨🇭34瑞士-全网优化(Tuic)
   url: http://1.1.1.1
   interval: 300
 - name: 🇭🇰香港
   type: url-test
   proxies:
-  - 3台湾-电信/联通(Tuic)
-  - 4台湾-电信/联通(Tuic)
-  - 🇷🇺17俄罗斯-电信/联通(Tuic)
+  - 🇮🇳13印度孟买-电信/联通(Tuic)
   url: http://1.1.1.1
   interval: 300
 - name: 🌐其他
   type: select
   proxies:
+  - 🇩🇪11德国-全网优化(Tuic)
+  - 🇬🇧12英国-全网优化(Tuic)
   - 🇷🇺17俄罗斯-电信/联通(Tuic)
+  - 🇧🇷22巴西-联通/移动(Tuic)
+  - 🇳🇱26荷兰-全网优化(Tuic)
+  - 🇫🇷27法国-全网优化(Tuic)
+  - 🇨🇱29智利-全网优化(Tuic)
+  - 🇮🇹30意大利-全网优化(Tuic)
+  - 🇿🇦32南非-约翰内斯堡(Tuic)
+  - 🇨🇦33加拿大-全网优化(Tuic)
+  - 🇨🇭34瑞士-全网优化(Tuic)
 - name: 🌍全部
   type: select
   proxies:
   - 3台湾-电信/联通(Tuic)
   - 4台湾-电信/联通(Tuic)
+  - 🇩🇪11德国-全网优化(Tuic)
+  - 🇬🇧12英国-全网优化(Tuic)
+  - 🇮🇳13印度孟买-电信/联通(Tuic)
   - 🇷🇺17俄罗斯-电信/联通(Tuic)
+  - 🇧🇷22巴西-联通/移动(Tuic)
+  - 🇳🇱26荷兰-全网优化(Tuic)
+  - 🇫🇷27法国-全网优化(Tuic)
+  - 🇨🇱29智利-全网优化(Tuic)
+  - 🇮🇹30意大利-全网优化(Tuic)
+  - 🇿🇦32南非-约翰内斯堡(Tuic)
+  - 🇨🇦33加拿大-全网优化(Tuic)
+  - 🇨🇭34瑞士-全网优化(Tuic)
 - name: 🤖Claude
   type: url-test
   proxies:
-  - 3台湾-电信/联通(Tuic)
-  - 4台湾-电信/联通(Tuic)
-  - 🇷🇺17俄罗斯-电信/联通(Tuic)
+  - 🇩🇪11德国-全网优化(Tuic)
+  - 🇬🇧12英国-全网优化(Tuic)
+  - 🇮🇳13印度孟买-电信/联通(Tuic)
+  - 🇧🇷22巴西-联通/移动(Tuic)
+  - 🇳🇱26荷兰-全网优化(Tuic)
+  - 🇫🇷27法国-全网优化(Tuic)
+  - 🇨🇱29智利-全网优化(Tuic)
+  - 🇮🇹30意大利-全网优化(Tuic)
+  - 🇿🇦32南非-约翰内斯堡(Tuic)
+  - 🇨🇦33加拿大-全网优化(Tuic)
+  - 🇨🇭34瑞士-全网优化(Tuic)
   url: http://1.1.1.1
   interval: 300
 - name: 🤖Gemini
   type: url-test
   proxies:
-  - 3台湾-电信/联通(Tuic)
-  - 4台湾-电信/联通(Tuic)
-  - 🇷🇺17俄罗斯-电信/联通(Tuic)
+  - 🇩🇪11德国-全网优化(Tuic)
+  - 🇬🇧12英国-全网优化(Tuic)
+  - 🇮🇳13印度孟买-电信/联通(Tuic)
+  - 🇧🇷22巴西-联通/移动(Tuic)
+  - 🇳🇱26荷兰-全网优化(Tuic)
+  - 🇫🇷27法国-全网优化(Tuic)
+  - 🇨🇱29智利-全网优化(Tuic)
+  - 🇮🇹30意大利-全网优化(Tuic)
+  - 🇿🇦32南非-约翰内斯堡(Tuic)
+  - 🇨🇦33加拿大-全网优化(Tuic)
+  - 🇨🇭34瑞士-全网优化(Tuic)
   url: http://1.1.1.1
   interval: 300
 - name: 🤖ChatGPT
   type: url-test
   proxies:
-  - 3台湾-电信/联通(Tuic)
-  - 4台湾-电信/联通(Tuic)
-  - 🇷🇺17俄罗斯-电信/联通(Tuic)
+  - 🇩🇪11德国-全网优化(Tuic)
+  - 🇬🇧12英国-全网优化(Tuic)
+  - 🇮🇳13印度孟买-电信/联通(Tuic)
+  - 🇧🇷22巴西-联通/移动(Tuic)
+  - 🇳🇱26荷兰-全网优化(Tuic)
+  - 🇫🇷27法国-全网优化(Tuic)
+  - 🇨🇱29智利-全网优化(Tuic)
+  - 🇮🇹30意大利-全网优化(Tuic)
+  - 🇿🇦32南非-约翰内斯堡(Tuic)
+  - 🇨🇦33加拿大-全网优化(Tuic)
+  - 🇨🇭34瑞士-全网优化(Tuic)
   url: http://1.1.1.1
   interval: 300
 - name: 🤖xAI
   type: url-test
   proxies:
-  - 3台湾-电信/联通(Tuic)
-  - 4台湾-电信/联通(Tuic)
-  - 🇷🇺17俄罗斯-电信/联通(Tuic)
+  - 🇩🇪11德国-全网优化(Tuic)
+  - 🇬🇧12英国-全网优化(Tuic)
+  - 🇮🇳13印度孟买-电信/联通(Tuic)
+  - 🇧🇷22巴西-联通/移动(Tuic)
+  - 🇳🇱26荷兰-全网优化(Tuic)
+  - 🇫🇷27法国-全网优化(Tuic)
+  - 🇨🇱29智利-全网优化(Tuic)
+  - 🇮🇹30意大利-全网优化(Tuic)
+  - 🇿🇦32南非-约翰内斯堡(Tuic)
+  - 🇨🇦33加拿大-全网优化(Tuic)
+  - 🇨🇭34瑞士-全网优化(Tuic)
   url: http://1.1.1.1
   interval: 300
 rules:
