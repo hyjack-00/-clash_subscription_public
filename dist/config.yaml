@@ -238,7 +238,7 @@ proxy-groups:
 - name: BV用户后台!
   type: select
   proxies:
-  - 🕒最近更新 03-26 14:58 HKT
+  - 🕒最近更新 03-26 20:53 HKT
   - BV通用组
   - ♻️全球自动
   - 🔯故障转移
@@ -266,7 +266,7 @@ proxy-groups:
   - 🇿🇦32南非-约翰内斯堡(Tuic)
   - 🇨🇦33加拿大-全网优化(Tuic)
   - 🇨🇭34瑞士-全网优化(Tuic)
-- name: 🕒最近更新 03-26 14:58 HKT
+- name: 🕒最近更新 03-26 20:53 HKT
   type: select
   proxies:
   - DIRECT
