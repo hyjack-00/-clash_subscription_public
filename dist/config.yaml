@@ -234,11 +234,22 @@ proxies:
   udp-relay-mode: native
   alpn:
   - h3
+- name: 🇪🇸36西班牙-电信/联通(Tuic)
+  type: tuic
+  server: 36es.networklinkpro.net
+  port: 4430
+  uuid: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  skip-cert-verify: true
+  congestion-control: bbr
+  udp-relay-mode: native
+  alpn:
+  - h3
 proxy-groups:
 - name: BV用户后台!
   type: select
   proxies:
-  - 🕒最近更新 03-27 09:24 HKT
+  - 🕒最近更新 03-27 14:58 HKT
   - BV通用组
   - ♻️全球自动
   - 🔯故障转移
@@ -266,7 +277,8 @@ proxy-groups:
   - 🇿🇦32南非-约翰内斯堡(Tuic)
   - 🇨🇦33加拿大-全网优化(Tuic)
   - 🇨🇭34瑞士-全网优化(Tuic)
-- name: 🕒最近更新 03-27 09:24 HKT
+  - 🇪🇸36西班牙-电信/联通(Tuic)
+- name: 🕒最近更新 03-27 14:58 HKT
   type: select
   proxies:
   - DIRECT
@@ -287,6 +299,7 @@ proxy-groups:
   - 🇿🇦32南非-约翰内斯堡(Tuic)
   - 🇨🇦33加拿大-全网优化(Tuic)
   - 🇨🇭34瑞士-全网优化(Tuic)
+  - 🇪🇸36西班牙-电信/联通(Tuic)
   url: http://1.1.1.1
   interval: 300
 - name: ♻️全球自动
@@ -306,6 +319,7 @@ proxy-groups:
   - 🇿🇦32南非-约翰内斯堡(Tuic)
   - 🇨🇦33加拿大-全网优化(Tuic)
   - 🇨🇭34瑞士-全网优化(Tuic)
+  - 🇪🇸36西班牙-电信/联通(Tuic)
   url: http://1.1.1.1
   interval: 600
 - name: 🔯故障转移
@@ -325,6 +339,7 @@ proxy-groups:
   - 🇿🇦32南非-约翰内斯堡(Tuic)
   - 🇨🇦33加拿大-全网优化(Tuic)
   - 🇨🇭34瑞士-全网优化(Tuic)
+  - 🇪🇸36西班牙-电信/联通(Tuic)
   url: http://1.1.1.1
   interval: 450
 - name: 🌏亚洲
@@ -348,6 +363,7 @@ proxy-groups:
   - 🇿🇦32南非-约翰内斯堡(Tuic)
   - 🇨🇦33加拿大-全网优化(Tuic)
   - 🇨🇭34瑞士-全网优化(Tuic)
+  - 🇪🇸36西班牙-电信/联通(Tuic)
   url: http://1.1.1.1
   interval: 300
 - name: 🇭🇰香港
@@ -370,6 +386,7 @@ proxy-groups:
   - 🇿🇦32南非-约翰内斯堡(Tuic)
   - 🇨🇦33加拿大-全网优化(Tuic)
   - 🇨🇭34瑞士-全网优化(Tuic)
+  - 🇪🇸36西班牙-电信/联通(Tuic)
 - name: 🌍全部
   type: select
   proxies:
@@ -387,6 +404,7 @@ proxy-groups:
   - 🇿🇦32南非-约翰内斯堡(Tuic)
   - 🇨🇦33加拿大-全网优化(Tuic)
   - 🇨🇭34瑞士-全网优化(Tuic)
+  - 🇪🇸36西班牙-电信/联通(Tuic)
 - name: 🤖Claude
   type: url-test
   proxies:
@@ -401,6 +419,7 @@ proxy-groups:
   - 🇿🇦32南非-约翰内斯堡(Tuic)
   - 🇨🇦33加拿大-全网优化(Tuic)
   - 🇨🇭34瑞士-全网优化(Tuic)
+  - 🇪🇸36西班牙-电信/联通(Tuic)
   url: http://1.1.1.1
   interval: 300
 - name: 🤖Gemini
@@ -417,6 +436,7 @@ proxy-groups:
   - 🇿🇦32南非-约翰内斯堡(Tuic)
   - 🇨🇦33加拿大-全网优化(Tuic)
   - 🇨🇭34瑞士-全网优化(Tuic)
+  - 🇪🇸36西班牙-电信/联通(Tuic)
   url: http://1.1.1.1
   interval: 300
 - name: 🤖ChatGPT
@@ -433,6 +453,7 @@ proxy-groups:
   - 🇿🇦32南非-约翰内斯堡(Tuic)
   - 🇨🇦33加拿大-全网优化(Tuic)
   - 🇨🇭34瑞士-全网优化(Tuic)
+  - 🇪🇸36西班牙-电信/联通(Tuic)
   url: http://1.1.1.1
   interval: 300
 - name: 🤖xAI
@@ -449,6 +470,7 @@ proxy-groups:
   - 🇿🇦32南非-约翰内斯堡(Tuic)
   - 🇨🇦33加拿大-全网优化(Tuic)
   - 🇨🇭34瑞士-全网优化(Tuic)
+  - 🇪🇸36西班牙-电信/联通(Tuic)
   url: http://1.1.1.1
   interval: 300
 rules:
