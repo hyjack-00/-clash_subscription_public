@@ -1,16 +1,14 @@
 {
-  "generated_at": "2026-03-28T01:19:15Z",
+  "generated_at": "2026-03-28T06:47:28Z",
   "source_mode": "http",
   "parse_mode": "base64-uri",
-  "proxy_count": 15,
+  "proxy_count": 11,
   "llm_enabled": true,
   "llm_used": true,
   "region_counts": {
     "tw": 2,
-    "other": 9,
-    "in": 1,
     "ru": 1,
-    "unknown": 2
+    "other": 8
   },
   "notes": [
     "当前无专属 HK 节点，香港组已回退到亚洲或全部节点",
