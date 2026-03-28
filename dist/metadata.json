@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-27T18:44:21Z",
+  "generated_at": "2026-03-28T01:19:15Z",
   "source_mode": "http",
   "parse_mode": "base64-uri",
   "proxy_count": 15,
@@ -14,6 +14,6 @@
   },
   "notes": [
     "当前无专属 HK 节点，香港组已回退到亚洲或全部节点",
-    "已跳过无效、占位或暂不支持的 URI 节点: anytls:27, ss-placeholder:3"
+    "已跳过无效、占位或暂不支持的 URI 节点: anytls:29, ss-placeholder:3"
   ]
 }
