@@ -205,7 +205,7 @@ proxy-groups:
 - name: BV用户后台!
   type: select
   proxies:
-  - 🕒最近更新 03-28 14:47 HKT
+  - 🕒最近更新 03-28 20:34 HKT
   - BV通用组
   - ♻️全球自动
   - 🔯故障转移
@@ -230,7 +230,7 @@ proxy-groups:
   - 🇨🇦33加拿大-全网优化(Tuic)
   - 🇨🇭34瑞士-全网优化(Tuic)
   - 🇪🇸36西班牙-电信/联通(Tuic)
-- name: 🕒最近更新 03-28 14:47 HKT
+- name: 🕒最近更新 03-28 20:34 HKT
   type: select
   proxies:
   - DIRECT
