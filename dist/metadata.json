@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-04-03T18:35:08Z",
+  "generated_at": "2026-04-04T01:19:36Z",
   "source_mode": "http",
   "parse_mode": "base64-uri",
-  "proxy_count": 4,
+  "proxy_count": 5,
   "llm_enabled": true,
   "llm_used": false,
   "region_counts": {
     "tw": 2,
-    "other": 1,
+    "other": 2,
     "ru": 1
   },
   "notes": [
