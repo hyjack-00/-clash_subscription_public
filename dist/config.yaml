@@ -136,11 +136,22 @@ proxies:
   udp-relay-mode: native
   alpn:
   - h3
+- name: 🇳🇱26荷兰-全网优化(Tuic)
+  type: tuic
+  server: 26nl.networklinkpro.net
+  port: 65532
+  uuid: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  skip-cert-verify: true
+  congestion-control: bbr
+  udp-relay-mode: native
+  alpn:
+  - h3
 proxy-groups:
 - name: BV用户后台!
   type: select
   proxies:
-  - 🕒最近更新 04-04 09:19 HKT
+  - 🕒最近更新 04-04 14:49 HKT
   - BV通用组
   - ♻️全球自动
   - 🔯故障转移
@@ -159,7 +170,8 @@ proxy-groups:
   - 🇩🇪11德国-全网优化(Tuic)
   - 🇬🇧12英国-全网优化(Tuic)
   - 🇷🇺17俄罗斯-电信/联通(Tuic)
-- name: 🕒最近更新 04-04 09:19 HKT
+  - 🇳🇱26荷兰-全网优化(Tuic)
+- name: 🕒最近更新 04-04 14:49 HKT
   type: select
   proxies:
   - DIRECT
@@ -171,6 +183,7 @@ proxy-groups:
   - 🇩🇪11德国-全网优化(Tuic)
   - 🇬🇧12英国-全网优化(Tuic)
   - 🇷🇺17俄罗斯-电信/联通(Tuic)
+  - 🇳🇱26荷兰-全网优化(Tuic)
   url: http://1.1.1.1
   interval: 300
 - name: ♻️全球自动
@@ -181,6 +194,7 @@ proxy-groups:
   - 🇩🇪11德国-全网优化(Tuic)
   - 🇬🇧12英国-全网优化(Tuic)
   - 🇷🇺17俄罗斯-电信/联通(Tuic)
+  - 🇳🇱26荷兰-全网优化(Tuic)
   url: http://1.1.1.1
   interval: 600
 - name: 🔯故障转移
@@ -191,6 +205,7 @@ proxy-groups:
   - 🇩🇪11德国-全网优化(Tuic)
   - 🇬🇧12英国-全网优化(Tuic)
   - 🇷🇺17俄罗斯-电信/联通(Tuic)
+  - 🇳🇱26荷兰-全网优化(Tuic)
   url: http://1.1.1.1
   interval: 450
 - name: 🌏亚洲
@@ -201,6 +216,7 @@ proxy-groups:
   - 🇩🇪11德国-全网优化(Tuic)
   - 🇬🇧12英国-全网优化(Tuic)
   - 🇷🇺17俄罗斯-电信/联通(Tuic)
+  - 🇳🇱26荷兰-全网优化(Tuic)
 - name: 🇺🇸美国
   type: url-test
   proxies:
@@ -209,6 +225,7 @@ proxy-groups:
   - 🇩🇪11德国-全网优化(Tuic)
   - 🇬🇧12英国-全网优化(Tuic)
   - 🇷🇺17俄罗斯-电信/联通(Tuic)
+  - 🇳🇱26荷兰-全网优化(Tuic)
   url: http://1.1.1.1
   interval: 300
 - name: 🇭🇰香港
@@ -219,6 +236,7 @@ proxy-groups:
   - 🇩🇪11德国-全网优化(Tuic)
   - 🇬🇧12英国-全网优化(Tuic)
   - 🇷🇺17俄罗斯-电信/联通(Tuic)
+  - 🇳🇱26荷兰-全网优化(Tuic)
   url: http://1.1.1.1
   interval: 300
 - name: 🌐其他
@@ -227,6 +245,7 @@ proxy-groups:
   - 🇩🇪11德国-全网优化(Tuic)
   - 🇬🇧12英国-全网优化(Tuic)
   - 🇷🇺17俄罗斯-电信/联通(Tuic)
+  - 🇳🇱26荷兰-全网优化(Tuic)
 - name: 🌍全部
   type: select
   proxies:
@@ -235,11 +254,13 @@ proxy-groups:
   - 🇩🇪11德国-全网优化(Tuic)
   - 🇬🇧12英国-全网优化(Tuic)
   - 🇷🇺17俄罗斯-电信/联通(Tuic)
+  - 🇳🇱26荷兰-全网优化(Tuic)
 - name: 🤖Claude
   type: url-test
   proxies:
   - 🇩🇪11德国-全网优化(Tuic)
   - 🇬🇧12英国-全网优化(Tuic)
+  - 🇳🇱26荷兰-全网优化(Tuic)
   url: http://1.1.1.1
   interval: 300
 - name: 🤖Gemini
@@ -247,6 +268,7 @@ proxy-groups:
   proxies:
   - 🇩🇪11德国-全网优化(Tuic)
   - 🇬🇧12英国-全网优化(Tuic)
+  - 🇳🇱26荷兰-全网优化(Tuic)
   url: http://1.1.1.1
   interval: 300
 - name: 🤖ChatGPT
@@ -254,6 +276,7 @@ proxy-groups:
   proxies:
   - 🇩🇪11德国-全网优化(Tuic)
   - 🇬🇧12英国-全网优化(Tuic)
+  - 🇳🇱26荷兰-全网优化(Tuic)
   url: http://1.1.1.1
   interval: 300
 - name: 🤖xAI
@@ -261,6 +284,7 @@ proxy-groups:
   proxies:
   - 🇩🇪11德国-全网优化(Tuic)
   - 🇬🇧12英国-全网优化(Tuic)
+  - 🇳🇱26荷兰-全网优化(Tuic)
   url: http://1.1.1.1
   interval: 300
 rules:
