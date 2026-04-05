@@ -103,17 +103,6 @@ proxies:
   udp-relay-mode: native
   alpn:
   - h3
-- name: 🇬🇧12英国-全网优化(Tuic)
-  type: tuic
-  server: 12uk.networklinkpro.net
-  port: 65534
-  uuid: 89b51cea-4379-4882-a8d8-878b5b4770e1
-  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
-  skip-cert-verify: true
-  congestion-control: bbr
-  udp-relay-mode: native
-  alpn:
-  - h3
 - name: 🇷🇺17俄罗斯-电信/联通(Tuic)
   type: tuic
   server: 17ru.networklinkpro.net
@@ -129,7 +118,7 @@ proxy-groups:
 - name: BV用户后台!
   type: select
   proxies:
-  - 🕒最近更新 04-05 09:29 HKT
+  - 🕒最近更新 04-05 14:56 HKT
   - BV通用组
   - ♻️全球自动
   - 🔯故障转移
@@ -145,9 +134,8 @@ proxy-groups:
   - DIRECT
   - 3台湾-电信/联通(Tuic)
   - 4台湾-电信/联通(Tuic)
-  - 🇬🇧12英国-全网优化(Tuic)
   - 🇷🇺17俄罗斯-电信/联通(Tuic)
-- name: 🕒最近更新 04-05 09:29 HKT
+- name: 🕒最近更新 04-05 14:56 HKT
   type: select
   proxies:
   - DIRECT
@@ -156,7 +144,6 @@ proxy-groups:
   proxies:
   - 3台湾-电信/联通(Tuic)
   - 4台湾-电信/联通(Tuic)
-  - 🇬🇧12英国-全网优化(Tuic)
   - 🇷🇺17俄罗斯-电信/联通(Tuic)
   url: http://1.1.1.1
   interval: 300
@@ -165,7 +152,6 @@ proxy-groups:
   proxies:
   - 3台湾-电信/联通(Tuic)
   - 4台湾-电信/联通(Tuic)
-  - 🇬🇧12英国-全网优化(Tuic)
   - 🇷🇺17俄罗斯-电信/联通(Tuic)
   url: http://1.1.1.1
   interval: 600
@@ -174,7 +160,6 @@ proxy-groups:
   proxies:
   - 3台湾-电信/联通(Tuic)
   - 4台湾-电信/联通(Tuic)
-  - 🇬🇧12英国-全网优化(Tuic)
   - 🇷🇺17俄罗斯-电信/联通(Tuic)
   url: http://1.1.1.1
   interval: 450
@@ -183,14 +168,12 @@ proxy-groups:
   proxies:
   - 3台湾-电信/联通(Tuic)
   - 4台湾-电信/联通(Tuic)
-  - 🇬🇧12英国-全网优化(Tuic)
   - 🇷🇺17俄罗斯-电信/联通(Tuic)
 - name: 🇺🇸美国
   type: url-test
   proxies:
   - 3台湾-电信/联通(Tuic)
   - 4台湾-电信/联通(Tuic)
-  - 🇬🇧12英国-全网优化(Tuic)
   - 🇷🇺17俄罗斯-电信/联通(Tuic)
   url: http://1.1.1.1
   interval: 300
@@ -199,44 +182,49 @@ proxy-groups:
   proxies:
   - 3台湾-电信/联通(Tuic)
   - 4台湾-电信/联通(Tuic)
-  - 🇬🇧12英国-全网优化(Tuic)
   - 🇷🇺17俄罗斯-电信/联通(Tuic)
   url: http://1.1.1.1
   interval: 300
 - name: 🌐其他
   type: select
   proxies:
-  - 🇬🇧12英国-全网优化(Tuic)
   - 🇷🇺17俄罗斯-电信/联通(Tuic)
 - name: 🌍全部
   type: select
   proxies:
   - 3台湾-电信/联通(Tuic)
   - 4台湾-电信/联通(Tuic)
-  - 🇬🇧12英国-全网优化(Tuic)
   - 🇷🇺17俄罗斯-电信/联通(Tuic)
 - name: 🤖Claude
   type: url-test
   proxies:
-  - 🇬🇧12英国-全网优化(Tuic)
+  - 3台湾-电信/联通(Tuic)
+  - 4台湾-电信/联通(Tuic)
+  - 🇷🇺17俄罗斯-电信/联通(Tuic)
   url: http://1.1.1.1
   interval: 300
 - name: 🤖Gemini
   type: url-test
   proxies:
-  - 🇬🇧12英国-全网优化(Tuic)
+  - 3台湾-电信/联通(Tuic)
+  - 4台湾-电信/联通(Tuic)
+  - 🇷🇺17俄罗斯-电信/联通(Tuic)
   url: http://1.1.1.1
   interval: 300
 - name: 🤖ChatGPT
   type: url-test
   proxies:
-  - 🇬🇧12英国-全网优化(Tuic)
+  - 3台湾-电信/联通(Tuic)
+  - 4台湾-电信/联通(Tuic)
+  - 🇷🇺17俄罗斯-电信/联通(Tuic)
   url: http://1.1.1.1
   interval: 300
 - name: 🤖xAI
   type: url-test
   proxies:
-  - 🇬🇧12英国-全网优化(Tuic)
+  - 3台湾-电信/联通(Tuic)
+  - 4台湾-电信/联通(Tuic)
+  - 🇷🇺17俄罗斯-电信/联通(Tuic)
   url: http://1.1.1.1
   interval: 300
 rules:

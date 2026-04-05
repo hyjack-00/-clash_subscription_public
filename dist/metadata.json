@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-04-05T01:29:19Z",
+  "generated_at": "2026-04-05T06:56:00Z",
   "source_mode": "http",
   "parse_mode": "base64-uri",
-  "proxy_count": 4,
+  "proxy_count": 3,
   "llm_enabled": true,
   "llm_used": false,
   "region_counts": {
     "tw": 2,
-    "other": 1,
     "ru": 1
   },
   "notes": [
     "当前无专属 HK 节点，香港组已回退到亚洲或全部节点",
+    "AI 组未发现可用非受限地区节点，已回退到全部节点",
     "GLM 不可用：健康检查失败（429 Client Error: Too Many Requests for url: https://open.bigmodel.cn/api/paas/v4/chat/completions）",
     "已跳过无效、占位或暂不支持的 URI 节点: anytls:30, ss-placeholder:3"
   ]
