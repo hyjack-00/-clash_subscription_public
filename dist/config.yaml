@@ -140,7 +140,7 @@ proxy-groups:
 - name: BV用户后台!
   type: select
   proxies:
-  - 🕒最近更新 04-08 15:07 HKT
+  - 🕒最近更新 04-08 21:00 HKT
   - BV通用组
   - ♻️全球自动
   - 🔯故障转移
@@ -159,7 +159,7 @@ proxy-groups:
   - 🇩🇪11德国-全网优化(Tuic)
   - 🇷🇺17俄罗斯-电信/联通(Tuic)
   - 🇧🇷22巴西-联通/移动(Tuic)
-- name: 🕒最近更新 04-08 15:07 HKT
+- name: 🕒最近更新 04-08 21:00 HKT
   type: select
   proxies:
   - DIRECT
