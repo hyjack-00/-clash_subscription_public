@@ -1,4 +1,3 @@
-# 提醒：GLM 不可用，当前结果已回退为纯规则生成
 mixed-port: 7897
 allow-lan: false
 mode: rule
@@ -124,11 +123,221 @@ proxies:
   udp-relay-mode: quic
   alpn:
   - h3
+- name: 🌏自动最优-网址vp0.org(AnyTLS)
+  type: anytls
+  server: best.networklinkpro.net
+  port: 4430
+  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  sni: img11.360buyimg.com
+  skip-cert-verify: true
+- name: 🇭🇰1香港集群-电信/联通(AnyTLS)
+  type: anytls
+  server: 1hk.networklinkpro.net
+  port: 4430
+  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  sni: img11.360buyimg.com
+  skip-cert-verify: true
+- name: 🇭🇰2香港-全网优化(AnyTLS)
+  type: anytls
+  server: 2hk.networklinkpro.net
+  port: 4430
+  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  sni: img11.360buyimg.com
+  skip-cert-verify: true
+- name: 3台湾-电信/联通(AnyTLS)
+  type: anytls
+  server: 3tw.networklinkpro.net
+  port: 4430
+  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  sni: img11.360buyimg.com
+  skip-cert-verify: true
+- name: 4台湾-电信/联通(AnyTLS)
+  type: anytls
+  server: 4tw.networklinkpro.net
+  port: 4430
+  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  sni: img11.360buyimg.com
+  skip-cert-verify: true
+- name: 🇺🇸5美国波特兰-全网优化(AnyTLS)
+  type: anytls
+  server: 5us.networklinkpro.net
+  port: 4430
+  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  sni: img11.360buyimg.com
+  skip-cert-verify: true
+- name: 🇺🇸6美国洛杉矶集群-全网优化(AnyTLS)
+  type: anytls
+  server: 6us.networklinkpro.net
+  port: 4430
+  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  sni: img11.360buyimg.com
+  skip-cert-verify: true
+- name: 🇰🇷7韩国春川集群-联通/移动(AnyTLS)
+  type: anytls
+  server: 7kr.networklinkpro.net
+  port: 4430
+  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  sni: img11.360buyimg.com
+  skip-cert-verify: true
+- name: 🇰🇷8韩国首尔-全网优化(AnyTLS)
+  type: anytls
+  server: 8kr.networklinkpro.net
+  port: 4430
+  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  sni: img11.360buyimg.com
+  skip-cert-verify: true
+- name: 🇯🇵9日本大版集群-电信/移动(AnyTLS)
+  type: anytls
+  server: 9jp.networklinkpro.net
+  port: 4430
+  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  sni: img11.360buyimg.com
+  skip-cert-verify: true
+- name: 🇩🇪11德国-全网优化(AnyTLS)
+  type: anytls
+  server: 11de.networklinkpro.net
+  port: 4430
+  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  sni: img11.360buyimg.com
+  skip-cert-verify: true
+- name: 🇬🇧12英国-全网优化(AnyTLS)
+  type: anytls
+  server: 12uk.networklinkpro.net
+  port: 4430
+  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  sni: img11.360buyimg.com
+  skip-cert-verify: true
+- name: 🇮🇳13印度孟买-电信/联通(AnyTLS)
+  type: anytls
+  server: 13in.networklinkpro.net
+  port: 4430
+  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  sni: img11.360buyimg.com
+  skip-cert-verify: true
+- name: 🇸🇬14新加坡集群-全网优化(AnyTLS)
+  type: anytls
+  server: 14sg.networklinkpro.net
+  port: 4430
+  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  sni: img11.360buyimg.com
+  skip-cert-verify: true
+- name: 🇸🇬15新加坡集群-全网优化(AnyTLS)
+  type: anytls
+  server: 15sg.networklinkpro.net
+  port: 4430
+  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  sni: img11.360buyimg.com
+  skip-cert-verify: true
+- name: 🇺🇸16美国旧金山-联通优化(AnyTLS)
+  type: anytls
+  server: 16us.networklinkpro.net
+  port: 4430
+  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  sni: img11.360buyimg.com
+  skip-cert-verify: true
+- name: 🇷🇺17俄罗斯-电信/联通(AnyTLS)
+  type: anytls
+  server: 17ru.networklinkpro.net
+  port: 4430
+  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  sni: img11.360buyimg.com
+  skip-cert-verify: true
+- name: 🇯🇵18日本东京集群-联通/移动(AnyTLS)
+  type: anytls
+  server: 18jp.networklinkpro.net
+  port: 4430
+  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  sni: img11.360buyimg.com
+  skip-cert-verify: true
+- name: 🇯🇵19日本东京-联通/移动(AnyTLS)
+  type: anytls
+  server: 19jp.networklinkpro.net
+  port: 4430
+  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  sni: img11.360buyimg.com
+  skip-cert-verify: true
+- name: 🇧🇷22巴西-联通/移动(AnyTLS)
+  type: anytls
+  server: 22br.networklinkpro.net
+  port: 4430
+  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  sni: img11.360buyimg.com
+  skip-cert-verify: true
+- name: 🇳🇱26荷兰-全网优化(AnyTLS)
+  type: anytls
+  server: 26nl.networklinkpro.net
+  port: 4430
+  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  sni: img11.360buyimg.com
+  skip-cert-verify: true
+- name: 🇫🇷27法国-全网优化(AnyTLS)
+  type: anytls
+  server: 27fr.networklinkpro.net
+  port: 4430
+  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  sni: img11.360buyimg.com
+  skip-cert-verify: true
+- name: 🇺🇸28美国东部-全网优化(AnyTLS)
+  type: anytls
+  server: 28us.networklinkpro.net
+  port: 4430
+  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  sni: img11.360buyimg.com
+  skip-cert-verify: true
+- name: 🇨🇱29智利-全网优化(AnyTLS)
+  type: anytls
+  server: 29chi.networklinkpro.net
+  port: 4430
+  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  sni: img11.360buyimg.com
+  skip-cert-verify: true
+- name: 🇮🇹30意大利-全网优化(AnyTLS)
+  type: anytls
+  server: 30it.networklinkpro.net
+  port: 4430
+  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  sni: img11.360buyimg.com
+  skip-cert-verify: true
+- name: 🇸🇪31瑞典-电信/移动(AnyTLS)
+  type: anytls
+  server: 31se.networklinkpro.net
+  port: 4430
+  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  sni: img11.360buyimg.com
+  skip-cert-verify: true
+- name: 🇿🇦32南非-约翰内斯堡(AnyTLS)
+  type: anytls
+  server: 32za.networklinkpro.net
+  port: 4430
+  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  sni: img11.360buyimg.com
+  skip-cert-verify: true
+- name: 🇨🇦33加拿大-全网优化(AnyTLS)
+  type: anytls
+  server: 33ca.networklinkpro.net
+  port: 4430
+  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  sni: img11.360buyimg.com
+  skip-cert-verify: true
+- name: 🇨🇭34瑞士-全网优化(AnyTLS)
+  type: anytls
+  server: 34ch.networklinkpro.net
+  port: 4430
+  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  sni: img11.360buyimg.com
+  skip-cert-verify: true
+- name: 🇪🇸36西班牙-电信/联通(AnyTLS)
+  type: anytls
+  server: 36es.networklinkpro.net
+  port: 4430
+  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  sni: img11.360buyimg.com
+  skip-cert-verify: true
 proxy-groups:
 - name: BV用户后台!
   type: select
   proxies:
-  - 🕒最近更新 04-09 09:19 HKT
+  - 🕒最近更新 04-09 11:38 HKT
   - BV通用组
   - ♻️全球自动
   - 🔯故障转移
@@ -146,7 +355,37 @@ proxy-groups:
   - 4台湾-电信/联通(Tuic)
   - 🇷🇺17俄罗斯-电信/联通(Tuic)
   - 🇧🇷22巴西-联通/移动(Tuic)
-- name: 🕒最近更新 04-09 09:19 HKT
+  - 🌏自动最优-网址vp0.org(AnyTLS)
+  - 🇭🇰1香港集群-电信/联通(AnyTLS)
+  - 🇭🇰2香港-全网优化(AnyTLS)
+  - 3台湾-电信/联通(AnyTLS)
+  - 4台湾-电信/联通(AnyTLS)
+  - 🇺🇸5美国波特兰-全网优化(AnyTLS)
+  - 🇺🇸6美国洛杉矶集群-全网优化(AnyTLS)
+  - 🇰🇷7韩国春川集群-联通/移动(AnyTLS)
+  - 🇰🇷8韩国首尔-全网优化(AnyTLS)
+  - 🇯🇵9日本大版集群-电信/移动(AnyTLS)
+  - 🇩🇪11德国-全网优化(AnyTLS)
+  - 🇬🇧12英国-全网优化(AnyTLS)
+  - 🇮🇳13印度孟买-电信/联通(AnyTLS)
+  - 🇸🇬14新加坡集群-全网优化(AnyTLS)
+  - 🇸🇬15新加坡集群-全网优化(AnyTLS)
+  - 🇺🇸16美国旧金山-联通优化(AnyTLS)
+  - 🇷🇺17俄罗斯-电信/联通(AnyTLS)
+  - 🇯🇵18日本东京集群-联通/移动(AnyTLS)
+  - 🇯🇵19日本东京-联通/移动(AnyTLS)
+  - 🇧🇷22巴西-联通/移动(AnyTLS)
+  - 🇳🇱26荷兰-全网优化(AnyTLS)
+  - 🇫🇷27法国-全网优化(AnyTLS)
+  - 🇺🇸28美国东部-全网优化(AnyTLS)
+  - 🇨🇱29智利-全网优化(AnyTLS)
+  - 🇮🇹30意大利-全网优化(AnyTLS)
+  - 🇸🇪31瑞典-电信/移动(AnyTLS)
+  - 🇿🇦32南非-约翰内斯堡(AnyTLS)
+  - 🇨🇦33加拿大-全网优化(AnyTLS)
+  - 🇨🇭34瑞士-全网优化(AnyTLS)
+  - 🇪🇸36西班牙-电信/联通(AnyTLS)
+- name: 🕒最近更新 04-09 11:38 HKT
   type: select
   proxies:
   - DIRECT
@@ -157,6 +396,36 @@ proxy-groups:
   - 4台湾-电信/联通(Tuic)
   - 🇷🇺17俄罗斯-电信/联通(Tuic)
   - 🇧🇷22巴西-联通/移动(Tuic)
+  - 🌏自动最优-网址vp0.org(AnyTLS)
+  - 🇭🇰1香港集群-电信/联通(AnyTLS)
+  - 🇭🇰2香港-全网优化(AnyTLS)
+  - 3台湾-电信/联通(AnyTLS)
+  - 4台湾-电信/联通(AnyTLS)
+  - 🇺🇸5美国波特兰-全网优化(AnyTLS)
+  - 🇺🇸6美国洛杉矶集群-全网优化(AnyTLS)
+  - 🇰🇷7韩国春川集群-联通/移动(AnyTLS)
+  - 🇰🇷8韩国首尔-全网优化(AnyTLS)
+  - 🇯🇵9日本大版集群-电信/移动(AnyTLS)
+  - 🇩🇪11德国-全网优化(AnyTLS)
+  - 🇬🇧12英国-全网优化(AnyTLS)
+  - 🇮🇳13印度孟买-电信/联通(AnyTLS)
+  - 🇸🇬14新加坡集群-全网优化(AnyTLS)
+  - 🇸🇬15新加坡集群-全网优化(AnyTLS)
+  - 🇺🇸16美国旧金山-联通优化(AnyTLS)
+  - 🇷🇺17俄罗斯-电信/联通(AnyTLS)
+  - 🇯🇵18日本东京集群-联通/移动(AnyTLS)
+  - 🇯🇵19日本东京-联通/移动(AnyTLS)
+  - 🇧🇷22巴西-联通/移动(AnyTLS)
+  - 🇳🇱26荷兰-全网优化(AnyTLS)
+  - 🇫🇷27法国-全网优化(AnyTLS)
+  - 🇺🇸28美国东部-全网优化(AnyTLS)
+  - 🇨🇱29智利-全网优化(AnyTLS)
+  - 🇮🇹30意大利-全网优化(AnyTLS)
+  - 🇸🇪31瑞典-电信/移动(AnyTLS)
+  - 🇿🇦32南非-约翰内斯堡(AnyTLS)
+  - 🇨🇦33加拿大-全网优化(AnyTLS)
+  - 🇨🇭34瑞士-全网优化(AnyTLS)
+  - 🇪🇸36西班牙-电信/联通(AnyTLS)
   url: https://www.gstatic.com/generate_204
   interval: 300
 - name: ♻️全球自动
@@ -166,6 +435,36 @@ proxy-groups:
   - 4台湾-电信/联通(Tuic)
   - 🇷🇺17俄罗斯-电信/联通(Tuic)
   - 🇧🇷22巴西-联通/移动(Tuic)
+  - 🌏自动最优-网址vp0.org(AnyTLS)
+  - 🇭🇰1香港集群-电信/联通(AnyTLS)
+  - 🇭🇰2香港-全网优化(AnyTLS)
+  - 3台湾-电信/联通(AnyTLS)
+  - 4台湾-电信/联通(AnyTLS)
+  - 🇺🇸5美国波特兰-全网优化(AnyTLS)
+  - 🇺🇸6美国洛杉矶集群-全网优化(AnyTLS)
+  - 🇰🇷7韩国春川集群-联通/移动(AnyTLS)
+  - 🇰🇷8韩国首尔-全网优化(AnyTLS)
+  - 🇯🇵9日本大版集群-电信/移动(AnyTLS)
+  - 🇩🇪11德国-全网优化(AnyTLS)
+  - 🇬🇧12英国-全网优化(AnyTLS)
+  - 🇮🇳13印度孟买-电信/联通(AnyTLS)
+  - 🇸🇬14新加坡集群-全网优化(AnyTLS)
+  - 🇸🇬15新加坡集群-全网优化(AnyTLS)
+  - 🇺🇸16美国旧金山-联通优化(AnyTLS)
+  - 🇷🇺17俄罗斯-电信/联通(AnyTLS)
+  - 🇯🇵18日本东京集群-联通/移动(AnyTLS)
+  - 🇯🇵19日本东京-联通/移动(AnyTLS)
+  - 🇧🇷22巴西-联通/移动(AnyTLS)
+  - 🇳🇱26荷兰-全网优化(AnyTLS)
+  - 🇫🇷27法国-全网优化(AnyTLS)
+  - 🇺🇸28美国东部-全网优化(AnyTLS)
+  - 🇨🇱29智利-全网优化(AnyTLS)
+  - 🇮🇹30意大利-全网优化(AnyTLS)
+  - 🇸🇪31瑞典-电信/移动(AnyTLS)
+  - 🇿🇦32南非-约翰内斯堡(AnyTLS)
+  - 🇨🇦33加拿大-全网优化(AnyTLS)
+  - 🇨🇭34瑞士-全网优化(AnyTLS)
+  - 🇪🇸36西班牙-电信/联通(AnyTLS)
   url: https://www.gstatic.com/generate_204
   interval: 600
 - name: 🔯故障转移
@@ -175,31 +474,63 @@ proxy-groups:
   - 4台湾-电信/联通(Tuic)
   - 🇷🇺17俄罗斯-电信/联通(Tuic)
   - 🇧🇷22巴西-联通/移动(Tuic)
+  - 🌏自动最优-网址vp0.org(AnyTLS)
+  - 🇭🇰1香港集群-电信/联通(AnyTLS)
+  - 🇭🇰2香港-全网优化(AnyTLS)
+  - 3台湾-电信/联通(AnyTLS)
+  - 4台湾-电信/联通(AnyTLS)
+  - 🇺🇸5美国波特兰-全网优化(AnyTLS)
+  - 🇺🇸6美国洛杉矶集群-全网优化(AnyTLS)
+  - 🇰🇷7韩国春川集群-联通/移动(AnyTLS)
+  - 🇰🇷8韩国首尔-全网优化(AnyTLS)
+  - 🇯🇵9日本大版集群-电信/移动(AnyTLS)
+  - 🇩🇪11德国-全网优化(AnyTLS)
+  - 🇬🇧12英国-全网优化(AnyTLS)
+  - 🇮🇳13印度孟买-电信/联通(AnyTLS)
+  - 🇸🇬14新加坡集群-全网优化(AnyTLS)
+  - 🇸🇬15新加坡集群-全网优化(AnyTLS)
+  - 🇺🇸16美国旧金山-联通优化(AnyTLS)
+  - 🇷🇺17俄罗斯-电信/联通(AnyTLS)
+  - 🇯🇵18日本东京集群-联通/移动(AnyTLS)
+  - 🇯🇵19日本东京-联通/移动(AnyTLS)
+  - 🇧🇷22巴西-联通/移动(AnyTLS)
+  - 🇳🇱26荷兰-全网优化(AnyTLS)
+  - 🇫🇷27法国-全网优化(AnyTLS)
+  - 🇺🇸28美国东部-全网优化(AnyTLS)
+  - 🇨🇱29智利-全网优化(AnyTLS)
+  - 🇮🇹30意大利-全网优化(AnyTLS)
+  - 🇸🇪31瑞典-电信/移动(AnyTLS)
+  - 🇿🇦32南非-约翰内斯堡(AnyTLS)
+  - 🇨🇦33加拿大-全网优化(AnyTLS)
+  - 🇨🇭34瑞士-全网优化(AnyTLS)
+  - 🇪🇸36西班牙-电信/联通(AnyTLS)
   url: https://www.gstatic.com/generate_204
   interval: 450
 - name: 🌏亚洲
   type: select
   proxies:
-  - 3台湾-电信/联通(Tuic)
-  - 4台湾-电信/联通(Tuic)
-  - 🇷🇺17俄罗斯-电信/联通(Tuic)
-  - 🇧🇷22巴西-联通/移动(Tuic)
+  - 🇰🇷7韩国春川集群-联通/移动(AnyTLS)
+  - 🇰🇷8韩国首尔-全网优化(AnyTLS)
+  - 🇯🇵9日本大版集群-电信/移动(AnyTLS)
+  - 🇮🇳13印度孟买-电信/联通(AnyTLS)
+  - 🇸🇬14新加坡集群-全网优化(AnyTLS)
+  - 🇸🇬15新加坡集群-全网优化(AnyTLS)
+  - 🇯🇵18日本东京集群-联通/移动(AnyTLS)
+  - 🇯🇵19日本东京-联通/移动(AnyTLS)
 - name: 🇺🇸美国
   type: url-test
   proxies:
-  - 3台湾-电信/联通(Tuic)
-  - 4台湾-电信/联通(Tuic)
-  - 🇷🇺17俄罗斯-电信/联通(Tuic)
-  - 🇧🇷22巴西-联通/移动(Tuic)
+  - 🇺🇸5美国波特兰-全网优化(AnyTLS)
+  - 🇺🇸6美国洛杉矶集群-全网优化(AnyTLS)
+  - 🇺🇸16美国旧金山-联通优化(AnyTLS)
+  - 🇺🇸28美国东部-全网优化(AnyTLS)
   url: https://www.gstatic.com/generate_204
   interval: 300
 - name: 🇭🇰香港
   type: url-test
   proxies:
-  - 3台湾-电信/联通(Tuic)
-  - 4台湾-电信/联通(Tuic)
-  - 🇷🇺17俄罗斯-电信/联通(Tuic)
-  - 🇧🇷22巴西-联通/移动(Tuic)
+  - 🇭🇰1香港集群-电信/联通(AnyTLS)
+  - 🇭🇰2香港-全网优化(AnyTLS)
   url: https://www.gstatic.com/generate_204
   interval: 300
 - name: 🌐其他
@@ -207,6 +538,20 @@ proxy-groups:
   proxies:
   - 🇷🇺17俄罗斯-电信/联通(Tuic)
   - 🇧🇷22巴西-联通/移动(Tuic)
+  - 🌏自动最优-网址vp0.org(AnyTLS)
+  - 🇩🇪11德国-全网优化(AnyTLS)
+  - 🇬🇧12英国-全网优化(AnyTLS)
+  - 🇷🇺17俄罗斯-电信/联通(AnyTLS)
+  - 🇧🇷22巴西-联通/移动(AnyTLS)
+  - 🇳🇱26荷兰-全网优化(AnyTLS)
+  - 🇫🇷27法国-全网优化(AnyTLS)
+  - 🇨🇱29智利-全网优化(AnyTLS)
+  - 🇮🇹30意大利-全网优化(AnyTLS)
+  - 🇸🇪31瑞典-电信/移动(AnyTLS)
+  - 🇿🇦32南非-约翰内斯堡(AnyTLS)
+  - 🇨🇦33加拿大-全网优化(AnyTLS)
+  - 🇨🇭34瑞士-全网优化(AnyTLS)
+  - 🇪🇸36西班牙-电信/联通(AnyTLS)
 - name: 🌍全部
   type: select
   proxies:
@@ -214,28 +559,158 @@ proxy-groups:
   - 4台湾-电信/联通(Tuic)
   - 🇷🇺17俄罗斯-电信/联通(Tuic)
   - 🇧🇷22巴西-联通/移动(Tuic)
+  - 🌏自动最优-网址vp0.org(AnyTLS)
+  - 🇭🇰1香港集群-电信/联通(AnyTLS)
+  - 🇭🇰2香港-全网优化(AnyTLS)
+  - 3台湾-电信/联通(AnyTLS)
+  - 4台湾-电信/联通(AnyTLS)
+  - 🇺🇸5美国波特兰-全网优化(AnyTLS)
+  - 🇺🇸6美国洛杉矶集群-全网优化(AnyTLS)
+  - 🇰🇷7韩国春川集群-联通/移动(AnyTLS)
+  - 🇰🇷8韩国首尔-全网优化(AnyTLS)
+  - 🇯🇵9日本大版集群-电信/移动(AnyTLS)
+  - 🇩🇪11德国-全网优化(AnyTLS)
+  - 🇬🇧12英国-全网优化(AnyTLS)
+  - 🇮🇳13印度孟买-电信/联通(AnyTLS)
+  - 🇸🇬14新加坡集群-全网优化(AnyTLS)
+  - 🇸🇬15新加坡集群-全网优化(AnyTLS)
+  - 🇺🇸16美国旧金山-联通优化(AnyTLS)
+  - 🇷🇺17俄罗斯-电信/联通(AnyTLS)
+  - 🇯🇵18日本东京集群-联通/移动(AnyTLS)
+  - 🇯🇵19日本东京-联通/移动(AnyTLS)
+  - 🇧🇷22巴西-联通/移动(AnyTLS)
+  - 🇳🇱26荷兰-全网优化(AnyTLS)
+  - 🇫🇷27法国-全网优化(AnyTLS)
+  - 🇺🇸28美国东部-全网优化(AnyTLS)
+  - 🇨🇱29智利-全网优化(AnyTLS)
+  - 🇮🇹30意大利-全网优化(AnyTLS)
+  - 🇸🇪31瑞典-电信/移动(AnyTLS)
+  - 🇿🇦32南非-约翰内斯堡(AnyTLS)
+  - 🇨🇦33加拿大-全网优化(AnyTLS)
+  - 🇨🇭34瑞士-全网优化(AnyTLS)
+  - 🇪🇸36西班牙-电信/联通(AnyTLS)
 - name: 🤖Claude
   type: url-test
   proxies:
   - 🇧🇷22巴西-联通/移动(Tuic)
+  - 🌏自动最优-网址vp0.org(AnyTLS)
+  - 🇺🇸5美国波特兰-全网优化(AnyTLS)
+  - 🇺🇸6美国洛杉矶集群-全网优化(AnyTLS)
+  - 🇰🇷7韩国春川集群-联通/移动(AnyTLS)
+  - 🇰🇷8韩国首尔-全网优化(AnyTLS)
+  - 🇯🇵9日本大版集群-电信/移动(AnyTLS)
+  - 🇩🇪11德国-全网优化(AnyTLS)
+  - 🇬🇧12英国-全网优化(AnyTLS)
+  - 🇮🇳13印度孟买-电信/联通(AnyTLS)
+  - 🇸🇬14新加坡集群-全网优化(AnyTLS)
+  - 🇸🇬15新加坡集群-全网优化(AnyTLS)
+  - 🇺🇸16美国旧金山-联通优化(AnyTLS)
+  - 🇯🇵18日本东京集群-联通/移动(AnyTLS)
+  - 🇯🇵19日本东京-联通/移动(AnyTLS)
+  - 🇧🇷22巴西-联通/移动(AnyTLS)
+  - 🇳🇱26荷兰-全网优化(AnyTLS)
+  - 🇫🇷27法国-全网优化(AnyTLS)
+  - 🇺🇸28美国东部-全网优化(AnyTLS)
+  - 🇨🇱29智利-全网优化(AnyTLS)
+  - 🇮🇹30意大利-全网优化(AnyTLS)
+  - 🇸🇪31瑞典-电信/移动(AnyTLS)
+  - 🇿🇦32南非-约翰内斯堡(AnyTLS)
+  - 🇨🇦33加拿大-全网优化(AnyTLS)
+  - 🇨🇭34瑞士-全网优化(AnyTLS)
+  - 🇪🇸36西班牙-电信/联通(AnyTLS)
   url: https://www.gstatic.com/generate_204
   interval: 300
 - name: 🤖Gemini
   type: url-test
   proxies:
   - 🇧🇷22巴西-联通/移动(Tuic)
+  - 🌏自动最优-网址vp0.org(AnyTLS)
+  - 🇺🇸5美国波特兰-全网优化(AnyTLS)
+  - 🇺🇸6美国洛杉矶集群-全网优化(AnyTLS)
+  - 🇰🇷7韩国春川集群-联通/移动(AnyTLS)
+  - 🇰🇷8韩国首尔-全网优化(AnyTLS)
+  - 🇯🇵9日本大版集群-电信/移动(AnyTLS)
+  - 🇩🇪11德国-全网优化(AnyTLS)
+  - 🇬🇧12英国-全网优化(AnyTLS)
+  - 🇮🇳13印度孟买-电信/联通(AnyTLS)
+  - 🇸🇬14新加坡集群-全网优化(AnyTLS)
+  - 🇸🇬15新加坡集群-全网优化(AnyTLS)
+  - 🇺🇸16美国旧金山-联通优化(AnyTLS)
+  - 🇯🇵18日本东京集群-联通/移动(AnyTLS)
+  - 🇯🇵19日本东京-联通/移动(AnyTLS)
+  - 🇧🇷22巴西-联通/移动(AnyTLS)
+  - 🇳🇱26荷兰-全网优化(AnyTLS)
+  - 🇫🇷27法国-全网优化(AnyTLS)
+  - 🇺🇸28美国东部-全网优化(AnyTLS)
+  - 🇨🇱29智利-全网优化(AnyTLS)
+  - 🇮🇹30意大利-全网优化(AnyTLS)
+  - 🇸🇪31瑞典-电信/移动(AnyTLS)
+  - 🇿🇦32南非-约翰内斯堡(AnyTLS)
+  - 🇨🇦33加拿大-全网优化(AnyTLS)
+  - 🇨🇭34瑞士-全网优化(AnyTLS)
+  - 🇪🇸36西班牙-电信/联通(AnyTLS)
   url: https://www.gstatic.com/generate_204
   interval: 300
 - name: 🤖ChatGPT
   type: url-test
   proxies:
   - 🇧🇷22巴西-联通/移动(Tuic)
+  - 🌏自动最优-网址vp0.org(AnyTLS)
+  - 🇺🇸5美国波特兰-全网优化(AnyTLS)
+  - 🇺🇸6美国洛杉矶集群-全网优化(AnyTLS)
+  - 🇰🇷7韩国春川集群-联通/移动(AnyTLS)
+  - 🇰🇷8韩国首尔-全网优化(AnyTLS)
+  - 🇯🇵9日本大版集群-电信/移动(AnyTLS)
+  - 🇩🇪11德国-全网优化(AnyTLS)
+  - 🇬🇧12英国-全网优化(AnyTLS)
+  - 🇮🇳13印度孟买-电信/联通(AnyTLS)
+  - 🇸🇬14新加坡集群-全网优化(AnyTLS)
+  - 🇸🇬15新加坡集群-全网优化(AnyTLS)
+  - 🇺🇸16美国旧金山-联通优化(AnyTLS)
+  - 🇯🇵18日本东京集群-联通/移动(AnyTLS)
+  - 🇯🇵19日本东京-联通/移动(AnyTLS)
+  - 🇧🇷22巴西-联通/移动(AnyTLS)
+  - 🇳🇱26荷兰-全网优化(AnyTLS)
+  - 🇫🇷27法国-全网优化(AnyTLS)
+  - 🇺🇸28美国东部-全网优化(AnyTLS)
+  - 🇨🇱29智利-全网优化(AnyTLS)
+  - 🇮🇹30意大利-全网优化(AnyTLS)
+  - 🇸🇪31瑞典-电信/移动(AnyTLS)
+  - 🇿🇦32南非-约翰内斯堡(AnyTLS)
+  - 🇨🇦33加拿大-全网优化(AnyTLS)
+  - 🇨🇭34瑞士-全网优化(AnyTLS)
+  - 🇪🇸36西班牙-电信/联通(AnyTLS)
   url: https://www.gstatic.com/generate_204
   interval: 300
 - name: 🤖xAI
   type: url-test
   proxies:
   - 🇧🇷22巴西-联通/移动(Tuic)
+  - 🌏自动最优-网址vp0.org(AnyTLS)
+  - 🇺🇸5美国波特兰-全网优化(AnyTLS)
+  - 🇺🇸6美国洛杉矶集群-全网优化(AnyTLS)
+  - 🇰🇷7韩国春川集群-联通/移动(AnyTLS)
+  - 🇰🇷8韩国首尔-全网优化(AnyTLS)
+  - 🇯🇵9日本大版集群-电信/移动(AnyTLS)
+  - 🇩🇪11德国-全网优化(AnyTLS)
+  - 🇬🇧12英国-全网优化(AnyTLS)
+  - 🇮🇳13印度孟买-电信/联通(AnyTLS)
+  - 🇸🇬14新加坡集群-全网优化(AnyTLS)
+  - 🇸🇬15新加坡集群-全网优化(AnyTLS)
+  - 🇺🇸16美国旧金山-联通优化(AnyTLS)
+  - 🇯🇵18日本东京集群-联通/移动(AnyTLS)
+  - 🇯🇵19日本东京-联通/移动(AnyTLS)
+  - 🇧🇷22巴西-联通/移动(AnyTLS)
+  - 🇳🇱26荷兰-全网优化(AnyTLS)
+  - 🇫🇷27法国-全网优化(AnyTLS)
+  - 🇺🇸28美国东部-全网优化(AnyTLS)
+  - 🇨🇱29智利-全网优化(AnyTLS)
+  - 🇮🇹30意大利-全网优化(AnyTLS)
+  - 🇸🇪31瑞典-电信/移动(AnyTLS)
+  - 🇿🇦32南非-约翰内斯堡(AnyTLS)
+  - 🇨🇦33加拿大-全网优化(AnyTLS)
+  - 🇨🇭34瑞士-全网优化(AnyTLS)
+  - 🇪🇸36西班牙-电信/联通(AnyTLS)
   url: https://www.gstatic.com/generate_204
   interval: 300
 rules:
