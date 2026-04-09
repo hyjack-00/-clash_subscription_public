@@ -1,7 +1,1 @@
-This repository uses a downstream mirror style inspired by Clash-compatible open-source projects.
-
-Upstream reference:
-- https://github.com/MetaCubeX/ClashMetaForAndroid
-
-This repository is not an official upstream mirror recognized by GitHub fork metadata.
-It mainly publishes generated compatibility artifacts under dist/.
+Third-party notices and license attributions may apply to components, names, and layouts referenced by this repository.
