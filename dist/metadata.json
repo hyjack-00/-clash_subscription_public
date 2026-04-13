@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-04-13T01:51:21Z",
+  "generated_at": "2026-04-13T07:49:00Z",
   "source_mode": "http",
   "parse_mode": "base64-uri",
   "proxy_count": 34,
   "llm_enabled": true,
-  "llm_used": true,
+  "llm_used": false,
   "region_counts": {
     "tw": 4,
     "ru": 2,
-    "other": 13,
-    "unknown": 1,
+    "other": 11,
+    "unknown": 3,
     "hk": 2,
     "us": 4,
     "kr": 2,
@@ -18,6 +18,7 @@
     "sg": 2
   },
   "notes": [
+    "GLM 不可用：分组调用失败（429 Client Error: Too Many Requests for url: https://open.bigmodel.cn/api/coding/paas/v4/chat/completions）",
     "已跳过无效、占位或暂不支持的 URI 节点: ss-placeholder:3"
   ]
 }
