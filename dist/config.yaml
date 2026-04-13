@@ -112,17 +112,6 @@ proxies:
   udp-relay-mode: native
   alpn:
   - h3
-- name: 🇧🇷22巴西-联通/移动(Tuic)
-  type: tuic
-  server: 22br.networklinkpro.net
-  port: 4431
-  uuid: 89b51cea-4379-4882-a8d8-878b5b4770e1
-  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
-  skip-cert-verify: false
-  congestion-control: bbr
-  udp-relay-mode: quic
-  alpn:
-  - h3
 - name: 🌏自动最优-网址vp0.org(AnyTLS)
   type: anytls
   server: best.networklinkpro.net
@@ -333,11 +322,22 @@ proxies:
   password: 89b51cea-4379-4882-a8d8-878b5b4770e1
   sni: img11.360buyimg.com
   skip-cert-verify: true
+- name: 🇧🇷22巴西-联通/移动(Tuic)
+  type: tuic
+  server: 22br.networklinkpro.net
+  port: 4431
+  uuid: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  password: 89b51cea-4379-4882-a8d8-878b5b4770e1
+  skip-cert-verify: false
+  congestion-control: bbr
+  udp-relay-mode: quic
+  alpn:
+  - h3
 proxy-groups:
 - name: BV用户后台!
   type: select
   proxies:
-  - 🕒最近更新 04-13 21:03 HKT
+  - 🕒最近更新 04-14 03:02 HKT
   - BV通用组
   - ♻️全球自动
   - 🔯故障转移
@@ -354,7 +354,6 @@ proxy-groups:
   - 3台湾-电信/联通(Tuic)
   - 4台湾-电信/联通(Tuic)
   - 🇷🇺17俄罗斯-电信/联通(Tuic)
-  - 🇧🇷22巴西-联通/移动(Tuic)
   - 🌏自动最优-网址vp0.org(AnyTLS)
   - 🇭🇰1香港集群-电信/联通(AnyTLS)
   - 🇭🇰2香港-全网优化(AnyTLS)
@@ -385,7 +384,8 @@ proxy-groups:
   - 🇨🇦33加拿大-全网优化(AnyTLS)
   - 🇨🇭34瑞士-全网优化(AnyTLS)
   - 🇪🇸36西班牙-电信/联通(AnyTLS)
-- name: 🕒最近更新 04-13 21:03 HKT
+  - 🇧🇷22巴西-联通/移动(Tuic)
+- name: 🕒最近更新 04-14 03:02 HKT
   type: select
   proxies:
   - DIRECT
@@ -395,7 +395,6 @@ proxy-groups:
   - 3台湾-电信/联通(Tuic)
   - 4台湾-电信/联通(Tuic)
   - 🇷🇺17俄罗斯-电信/联通(Tuic)
-  - 🇧🇷22巴西-联通/移动(Tuic)
   - 🌏自动最优-网址vp0.org(AnyTLS)
   - 🇭🇰1香港集群-电信/联通(AnyTLS)
   - 🇭🇰2香港-全网优化(AnyTLS)
@@ -426,6 +425,7 @@ proxy-groups:
   - 🇨🇦33加拿大-全网优化(AnyTLS)
   - 🇨🇭34瑞士-全网优化(AnyTLS)
   - 🇪🇸36西班牙-电信/联通(AnyTLS)
+  - 🇧🇷22巴西-联通/移动(Tuic)
   url: https://www.gstatic.com/generate_204
   interval: 300
 - name: ♻️全球自动
@@ -434,7 +434,6 @@ proxy-groups:
   - 3台湾-电信/联通(Tuic)
   - 4台湾-电信/联通(Tuic)
   - 🇷🇺17俄罗斯-电信/联通(Tuic)
-  - 🇧🇷22巴西-联通/移动(Tuic)
   - 🌏自动最优-网址vp0.org(AnyTLS)
   - 🇭🇰1香港集群-电信/联通(AnyTLS)
   - 🇭🇰2香港-全网优化(AnyTLS)
@@ -465,6 +464,7 @@ proxy-groups:
   - 🇨🇦33加拿大-全网优化(AnyTLS)
   - 🇨🇭34瑞士-全网优化(AnyTLS)
   - 🇪🇸36西班牙-电信/联通(AnyTLS)
+  - 🇧🇷22巴西-联通/移动(Tuic)
   url: https://www.gstatic.com/generate_204
   interval: 600
 - name: 🔯故障转移
@@ -473,7 +473,6 @@ proxy-groups:
   - 3台湾-电信/联通(Tuic)
   - 4台湾-电信/联通(Tuic)
   - 🇷🇺17俄罗斯-电信/联通(Tuic)
-  - 🇧🇷22巴西-联通/移动(Tuic)
   - 🌏自动最优-网址vp0.org(AnyTLS)
   - 🇭🇰1香港集群-电信/联通(AnyTLS)
   - 🇭🇰2香港-全网优化(AnyTLS)
@@ -504,6 +503,7 @@ proxy-groups:
   - 🇨🇦33加拿大-全网优化(AnyTLS)
   - 🇨🇭34瑞士-全网优化(AnyTLS)
   - 🇪🇸36西班牙-电信/联通(AnyTLS)
+  - 🇧🇷22巴西-联通/移动(Tuic)
   url: https://www.gstatic.com/generate_204
   interval: 450
 - name: 🌏亚洲
@@ -537,7 +537,6 @@ proxy-groups:
   type: select
   proxies:
   - 🇷🇺17俄罗斯-电信/联通(Tuic)
-  - 🇧🇷22巴西-联通/移动(Tuic)
   - 🌏自动最优-网址vp0.org(AnyTLS)
   - 🇩🇪11德国-全网优化(AnyTLS)
   - 🇬🇧12英国-全网优化(AnyTLS)
@@ -552,13 +551,13 @@ proxy-groups:
   - 🇨🇦33加拿大-全网优化(AnyTLS)
   - 🇨🇭34瑞士-全网优化(AnyTLS)
   - 🇪🇸36西班牙-电信/联通(AnyTLS)
+  - 🇧🇷22巴西-联通/移动(Tuic)
 - name: 🌍全部
   type: select
   proxies:
   - 3台湾-电信/联通(Tuic)
   - 4台湾-电信/联通(Tuic)
   - 🇷🇺17俄罗斯-电信/联通(Tuic)
-  - 🇧🇷22巴西-联通/移动(Tuic)
   - 🌏自动最优-网址vp0.org(AnyTLS)
   - 🇭🇰1香港集群-电信/联通(AnyTLS)
   - 🇭🇰2香港-全网优化(AnyTLS)
@@ -589,10 +588,10 @@ proxy-groups:
   - 🇨🇦33加拿大-全网优化(AnyTLS)
   - 🇨🇭34瑞士-全网优化(AnyTLS)
   - 🇪🇸36西班牙-电信/联通(AnyTLS)
+  - 🇧🇷22巴西-联通/移动(Tuic)
 - name: 🤖Claude
   type: url-test
   proxies:
-  - 🇧🇷22巴西-联通/移动(Tuic)
   - 🌏自动最优-网址vp0.org(AnyTLS)
   - 🇺🇸5美国波特兰-全网优化(AnyTLS)
   - 🇺🇸6美国洛杉矶集群-全网优化(AnyTLS)
@@ -618,12 +617,12 @@ proxy-groups:
   - 🇨🇦33加拿大-全网优化(AnyTLS)
   - 🇨🇭34瑞士-全网优化(AnyTLS)
   - 🇪🇸36西班牙-电信/联通(AnyTLS)
+  - 🇧🇷22巴西-联通/移动(Tuic)
   url: https://www.gstatic.com/generate_204
   interval: 300
 - name: 🤖Gemini
   type: url-test
   proxies:
-  - 🇧🇷22巴西-联通/移动(Tuic)
   - 🌏自动最优-网址vp0.org(AnyTLS)
   - 🇺🇸5美国波特兰-全网优化(AnyTLS)
   - 🇺🇸6美国洛杉矶集群-全网优化(AnyTLS)
@@ -649,12 +648,12 @@ proxy-groups:
   - 🇨🇦33加拿大-全网优化(AnyTLS)
   - 🇨🇭34瑞士-全网优化(AnyTLS)
   - 🇪🇸36西班牙-电信/联通(AnyTLS)
+  - 🇧🇷22巴西-联通/移动(Tuic)
   url: https://www.gstatic.com/generate_204
   interval: 300
 - name: 🤖ChatGPT
   type: url-test
   proxies:
-  - 🇧🇷22巴西-联通/移动(Tuic)
   - 🌏自动最优-网址vp0.org(AnyTLS)
   - 🇺🇸5美国波特兰-全网优化(AnyTLS)
   - 🇺🇸6美国洛杉矶集群-全网优化(AnyTLS)
@@ -680,12 +679,12 @@ proxy-groups:
   - 🇨🇦33加拿大-全网优化(AnyTLS)
   - 🇨🇭34瑞士-全网优化(AnyTLS)
   - 🇪🇸36西班牙-电信/联通(AnyTLS)
+  - 🇧🇷22巴西-联通/移动(Tuic)
   url: https://www.gstatic.com/generate_204
   interval: 300
 - name: 🤖xAI
   type: url-test
   proxies:
-  - 🇧🇷22巴西-联通/移动(Tuic)
   - 🌏自动最优-网址vp0.org(AnyTLS)
   - 🇺🇸5美国波特兰-全网优化(AnyTLS)
   - 🇺🇸6美国洛杉矶集群-全网优化(AnyTLS)
@@ -711,6 +710,7 @@ proxy-groups:
   - 🇨🇦33加拿大-全网优化(AnyTLS)
   - 🇨🇭34瑞士-全网优化(AnyTLS)
   - 🇪🇸36西班牙-电信/联通(AnyTLS)
+  - 🇧🇷22巴西-联通/移动(Tuic)
   url: https://www.gstatic.com/generate_204
   interval: 300
 rules:
