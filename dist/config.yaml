@@ -337,7 +337,7 @@ proxy-groups:
 - name: BV用户后台!
   type: select
   proxies:
-  - 🕒最近更新 04-17 20:58 HKT
+  - 🕒最近更新 04-18 02:44 HKT
   - BV通用组
   - ♻️全球自动
   - 🔯故障转移
@@ -385,7 +385,7 @@ proxy-groups:
   - 🇨🇭34瑞士-全网优化(AnyTLS)
   - 🇪🇸36西班牙-电信/联通(AnyTLS)
   - 🇧🇷22巴西-联通/移动(Tuic)
-- name: 🕒最近更新 04-17 20:58 HKT
+- name: 🕒最近更新 04-18 02:44 HKT
   type: select
   proxies:
   - DIRECT
