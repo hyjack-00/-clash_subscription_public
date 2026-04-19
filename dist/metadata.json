@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-19T12:39:31Z",
+  "generated_at": "2026-04-19T18:35:32Z",
   "source_mode": "http",
   "parse_mode": "base64-uri",
   "proxy_count": 34,
@@ -8,12 +8,12 @@
   "region_counts": {
     "tw": 4,
     "ru": 2,
-    "unknown": 1,
+    "unknown": 3,
     "hk": 2,
     "us": 4,
     "kr": 2,
     "jp": 3,
-    "other": 13,
+    "other": 11,
     "in": 1,
     "sg": 2
   },
