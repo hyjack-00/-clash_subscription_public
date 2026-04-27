@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-04-27T01:56:13Z",
+  "generated_at": "2026-04-27T08:06:17Z",
   "source_mode": "http",
   "parse_mode": "base64-uri",
-  "proxy_count": 34,
+  "proxy_count": 33,
   "llm_enabled": true,
   "llm_used": true,
   "region_counts": {
@@ -13,7 +13,7 @@
     "us": 4,
     "kr": 2,
     "jp": 3,
-    "other": 11,
+    "other": 10,
     "in": 1,
     "sg": 2
   },
